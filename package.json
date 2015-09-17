@@ -1,0 +1,11 @@
+{
+  "name": "doswift",
+  "version": "0.0.0",
+  "description": "swift weekly landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "numbbbbb",
+  "license": "BSD-2-Clause"
+}
