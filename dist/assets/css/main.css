@@ -57,6 +57,10 @@ body .main {
 body .main #content {
   height: 100%;
 }
+body .main .disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
 body .main #email {
   *zoom: 1;
   float: left;
