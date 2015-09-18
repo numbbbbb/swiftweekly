@@ -1,0 +1,134 @@
+* {
+  font-family: Roboto, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
+html {
+  font-size: 12px;
+}
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
+body {
+  text-rendering: optimizelegibilit;
+  text-align: center;
+  padding: 0 2rem;
+}
+body h1.title {
+  color: #5d504f;
+  letter-spacing: 1px;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  margin-bottom: 0.5rem;
+}
+body h2.subtitle {
+  color: #ccc;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 13px;
+}
+body .line {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: solid 1px #ddd;
+}
+body .main {
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  height: 5rem;
+  width: 70rem;
+}
+body .main #content {
+  height: 100%;
+}
+body .main #email {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 61.8%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: none;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 4px 0px 0px 4px;
+  border: solid 1px #f36d40;
+  box-sizing: border-box;
+  height: 100%;
+  color: #000;
+  font-size: 1.5rem;
+}
+body .main #email:before,
+body .main #email:after {
+  content: '';
+  display: table;
+}
+body .main #email:after {
+  clear: both;
+}
+body .main #email::-webkit-input-placeholder {
+/* WebKit, Blink, Edge */
+  color: #ccc;
+}
+body .main #email:-moz-placeholder {
+/* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+  opacity: 1;
+}
+body .main #email::-moz-placeholder {
+/* Mozilla Firefox 19+ */
+  color: #ccc;
+  opacity: 1;
+}
+body .main #email:-ms-input-placeholder {
+/* Internet Explorer 10-11 */
+  color: #ccc;
+}
+body .main .sub {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 38.2%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 1.3rem;
+  height: 100%;
+  box-shadow: none;
+  background-color: #f36d40;
+  color: #fbfcfb;
+  border-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+body .main .sub:before,
+body .main .sub:after {
+  content: '';
+  display: table;
+}
+body .main .sub:after {
+  clear: both;
+}
+body .main .sub:hover {
+  background-color: #b63f17;
+}
+body .footer {
+  color: #ccc;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 2rem;
+  left: 5%;
+}
+body .footer a {
+  color: #aaa;
+  text-decoration: underline;
+}
