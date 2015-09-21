@@ -169,9 +169,11 @@ body .footer a {
 }
 body ul.archive {
   position: absolute;
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   white-space: nowrap;
   margin-top: 5rem;
   font-size: 1.6rem;
