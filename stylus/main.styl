@@ -109,9 +109,14 @@ body
       text-decoration underline
   ul.archive
     align(direction=horizontal)
+    white-space nowrap
     margin-top 5rem
     font-size 1.6rem
     line-height 150%
+    +below(768px)
+      span.date
+        display none
+      width
     a
       text-decoration none
       cursor pointer

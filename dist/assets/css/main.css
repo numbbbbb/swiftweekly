@@ -170,9 +170,15 @@ body ul.archive {
   transform-style: preserve-3d;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
   margin-top: 5rem;
   font-size: 1.6rem;
   line-height: 150%;
+}
+@media only screen and (max-width: 768px) {
+  body ul.archive span.date {
+    display: none;
+  }
 }
 body ul.archive a {
   text-decoration: none;
