@@ -1,27 +1,21 @@
-
 html(lang="zh-CN")
 
   head
     meta(charset="UTF-8")/
     meta(name="viewport" content="width=device-width, initial-scale=1")/
-    title Swift 开发者周刊
+    title 往期回顾 | Swift 开发者周刊
     link(rel="stylesheet" type="text/css" href="../assets/css/vendor/bootstrap.min.css")/
-    link(rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css")
     link(rel="stylesheet" type="text/css" href="../assets/css/main.css")
     script(type="text/javascript" src="../assets/js/zepto.min.js")
     script(type="text/javascript" src="../assets/js/main.js")
-   
   body
-    h1.title Swift开发者周刊
-    h2.subtitle 每周推送最新Swift资源
+    h1.title 往期回顾
     div.line
-    a.right-btn(href="./archive.html" target="_blank") 往期回顾
-    div.main
-      form#content
-        input#email(name="email" placeholder="swift@alloc.init" type="email")
-        a.sub 订阅
-    div.footer
-      span 由 #[a(href="http://swift.gg" target="_blank") SwiftGG] 提供
+    a.left-btn(href="http://doswift.io" target="_blank") 回到首页
+    ul.archive
+      li 
+        a(href="./archive/0.html" target="_blank") Swift 开发者周刊（第 0 期）#[span.date 2015/9/18]
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

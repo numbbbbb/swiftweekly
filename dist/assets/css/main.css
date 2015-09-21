@@ -27,6 +27,18 @@ body .line {
   margin: 0 auto;
   border-bottom: solid 1px #ddd;
 }
+body a.right-btn {
+  margin-right: 5%;
+  float: right;
+  text-decoration: none;
+  cursor: pointer;
+}
+body a.left-btn {
+  margin-left: 5%;
+  float: left;
+  text-decoration: none;
+  cursor: pointer;
+}
 body .main {
   position: absolute;
   transform-style: preserve-3d;
@@ -152,4 +164,20 @@ body .footer {
 body .footer a {
   color: #aaa;
   text-decoration: underline;
+}
+body ul.archive {
+  position: absolute;
+  transform-style: preserve-3d;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+body ul.archive a {
+  text-decoration: none;
+  cursor: pointer;
+}
+body ul.archive span.date {
+  color: #ccc;
 }
