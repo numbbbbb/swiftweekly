@@ -1,0 +1,16 @@
+周刊创办以来最有趣的一期，介绍了很多好玩的库，赶快去看看吧~
+article
+[译] Swift 编程思想 Part 3：结构体和类 (@ray16897188)||http://swift.gg/2015/10/20/thinking-in-swift-3/||非常棒的系列文章，使用同一个例子来讲解各种知识点，便于比较和理解。
+[译] Swift 编程思想 Part 4：map all the things! (@ray16897188)||http://swift.gg/2015/10/22/thinking-in-swift-4/||第四部分涉及到函数式编程的知识，难度不大，很适合初学者。
+[译] Friday Q&A 2015-09-04:让我们来自定义 dispatch_queue (@王亚珂)||http://swift.gg/2015/10/19/friday-qa-2015-09-04-lets-build-dispatch_queue/||Mike Ash 的周五问答系列，这次是讲队列，深入理解队列机制。
+一种头像缓存策略 (@nixzhu)||https://github.com/nixzhu/dev-blog/blob/master/2015-10-08-navi.md||头像是各种应用的常见功能，优化头像存储机制能带来比较大的收益。
+iOS微信安装包瘦身||https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=207986417&idx=1&sn=77ea7d8e4f8ab7b59111e78c86ccfe66&scene=1&srcid=1024pgRuhHtElUqPlXjsizht&key=b410d3164f5f798e9752971b4cb76dd5efae6b5c2f1f10cbafd3573c6186c16ee60ce346711f7433ff6ab0d6aa974e3e&ascene=0&uin=MTQxOTU1ODg4MQ%3D%3D&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.11+build(15A284)&version=11020201&pass_ticket=h1CfhovWAS61j24tFYTljyTFl4r9BUlFON7H%2BNl6hMV1ZpVN2kG4%2FLL6yxnDUjd9||微信官方团队的应用优化经验，强烈推荐。||
+code
+Run：使用 Swift 封装 GCD (@khoiln)||https://github.com/khoiln/Run||GCD 真的不是共铲挡……
+CardKit：桌游的通用数据模型 (@kylef)||https://github.com/kylef/CardKit||可以试试写个 Swift 版三国杀。
+TuningFork：处理麦克风输入 (@comyarzaheri)||https://github.com/comyarzaheri/TuningFork||很有意思的一个库，来做个柯南的变声器吧。||
+project
+WWDC：Mac 版 WWDC 播放器 (@insidegui)||https://github.com/insidegui/WWDC||可以在 Mac 上看 WWDC 视频啦，缓存好，打开字幕，开始学习。
+Cereal：Swift 对象序列化工具 (@Weebly)||https://github.com/Weebly/Cereal||这个库的影响深远，Swift 开源→用 Swift 写后端→后端和 iOS 端通信需要一种协议……或许就是下一个 JSON。（脑洞略大）
+Interstellar：轻量级 Functional Reactive Programming 库 (@JensRavens)||https://github.com/JensRavens/Interstellar||建议大家学学 Reactive Programming，很有意思的一套思想，多学点总没坏处。
+Reachability.swift：使用 Swift 重写 Reachability (@ashleymills)||https://github.com/ashleymills/Reachability.swift||一个网络库||

@@ -41,12 +41,10 @@ body a.left-btn {
 }
 body .main {
   position: absolute;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   height: 5rem;
   width: 70rem;
 }
@@ -169,11 +167,9 @@ body .footer a {
 }
 body ul.archive {
   position: absolute;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   white-space: nowrap;
   margin-top: 5rem;
   font-size: 1.6rem;
