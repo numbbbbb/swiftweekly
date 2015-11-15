@@ -3,8 +3,8 @@ import fs from 'fs'
 fs.readFile('source', (err, data) => {
   let content = data.toString().split('\n')
   let articles = []
-  let codes = []
-  let projects = []
+  let apples = []
+  let linuxs = []
   let number = process.argv[2]
   let name = `weekly${number}.html`
   var now = articles
@@ -12,10 +12,10 @@ fs.readFile('source', (err, data) => {
   for (let i of content) {
     if (i == 'article') {
       now = articles
-    } else if (i == 'code') {
-      now = codes
-    } else if (i == 'project') {
-      now = projects
+    } else if (i == 'apple') {
+      now = apples
+    } else if (i == 'linux') {
+      now = linuxs
     } else {
       let temp = i.split('||')
       now.push(`<h4 style="margin:0;margin-bottom:6px;margin-top:6px;"><a target="_blank" style="font-size:14px;line-height:22px;font-weight:bold;text-decoration:none;color:#259;border:none;outline:none" href="${temp[1]}">${temp[0]}</a>&nbsp;&nbsp;</h4><p style="margin:0;font-size:13px;line-height:20px;padding-bottom:10px;${temp.length == 4 ? '' : 'border-bottom:1px dotted #eee'}">${temp[2]}</p>`)
@@ -45,10 +45,10 @@ fs.readFile('source', (err, data) => {
 </h2>
             <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">优秀文章</h3>
             ${articles.join('\n')}
-            <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">代码片段</h3>
-            ${codes.join('\n')}
-            <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">开源项目</h3>
-            ${projects.join('\n')}
+            <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">iOS & Mac OS 开源项目</h3>
+            ${apples.join('\n')}
+            <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">跨平台开源项目</h3>
+            ${linuxs.join('\n')}
            
             
             <p style="margin:0;color:#444;font-size:12px;line-height:20px;margin-bottom:18px;border-top:1px

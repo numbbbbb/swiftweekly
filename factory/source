@@ -1,16 +1,14 @@
-周刊创办以来最有趣的一期，介绍了很多好玩的库，赶快去看看吧~
+这周生病，发完周报继续卧床，大家也要注意身体哦。
 article
-[译] Swift 编程思想 Part 3：结构体和类 (@ray16897188)||http://swift.gg/2015/10/20/thinking-in-swift-3/||非常棒的系列文章，使用同一个例子来讲解各种知识点，便于比较和理解。
-[译] Swift 编程思想 Part 4：map all the things! (@ray16897188)||http://swift.gg/2015/10/22/thinking-in-swift-4/||第四部分涉及到函数式编程的知识，难度不大，很适合初学者。
-[译] Friday Q&A 2015-09-04:让我们来自定义 dispatch_queue (@王亚珂)||http://swift.gg/2015/10/19/friday-qa-2015-09-04-lets-build-dispatch_queue/||Mike Ash 的周五问答系列，这次是讲队列，深入理解队列机制。
-一种头像缓存策略 (@nixzhu)||https://github.com/nixzhu/dev-blog/blob/master/2015-10-08-navi.md||头像是各种应用的常见功能，优化头像存储机制能带来比较大的收益。
-iOS微信安装包瘦身||https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=207986417&idx=1&sn=77ea7d8e4f8ab7b59111e78c86ccfe66&scene=1&srcid=1024pgRuhHtElUqPlXjsizht&key=b410d3164f5f798e9752971b4cb76dd5efae6b5c2f1f10cbafd3573c6186c16ee60ce346711f7433ff6ab0d6aa974e3e&ascene=0&uin=MTQxOTU1ODg4MQ%3D%3D&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.11+build(15A284)&version=11020201&pass_ticket=h1CfhovWAS61j24tFYTljyTFl4r9BUlFON7H%2BNl6hMV1ZpVN2kG4%2FLL6yxnDUjd9||微信官方团队的应用优化经验，强烈推荐。||
-code
-Run：使用 Swift 封装 GCD (@khoiln)||https://github.com/khoiln/Run||GCD 真的不是共铲挡……
-CardKit：桌游的通用数据模型 (@kylef)||https://github.com/kylef/CardKit||可以试试写个 Swift 版三国杀。
-TuningFork：处理麦克风输入 (@comyarzaheri)||https://github.com/comyarzaheri/TuningFork||很有意思的一个库，来做个柯南的变声器吧。||
-project
-WWDC：Mac 版 WWDC 播放器 (@insidegui)||https://github.com/insidegui/WWDC||可以在 Mac 上看 WWDC 视频啦，缓存好，打开字幕，开始学习。
-Cereal：Swift 对象序列化工具 (@Weebly)||https://github.com/Weebly/Cereal||这个库的影响深远，Swift 开源→用 Swift 写后端→后端和 iOS 端通信需要一种协议……或许就是下一个 JSON。（脑洞略大）
-Interstellar：轻量级 Functional Reactive Programming 库 (@JensRavens)||https://github.com/JensRavens/Interstellar||建议大家学学 Reactive Programming，很有意思的一套思想，多学点总没坏处。
-Reachability.swift：使用 Swift 重写 Reachability (@ashleymills)||https://github.com/ashleymills/Reachability.swift||一个网络库||
+[译] 写给初学者的 Swift 教程 Part 1 (@小铁匠Linus)||http://swift.gg/2015/11/13/swift-tutorial-for-beginners-part-1/||又一位大牛开坑，非常详细的入门教程，我们会同步更新。
+[译] 函数和方法命名规范 (@天才175)||http://swift.gg/2015/11/12/naming-methods-and-functions/||“计算机科学中有且只有两个难题，命名和缓存失效。”——Phil Karlton
+[译] 使用 NSUndoManager 来进行撤销和重做 (@Yake)||http://swift.gg/2015/11/10/ios-undo-and-redo-with-nsundomanager/||适用于各类编辑器和绘图工具，用不上的先收藏，文到用时方恨少。
+被误解的 MVC 和被神化的 MVVM (@唐巧)||http://blog.devtang.com/blog/2015/11/02/mvc-and-mvvm/||唐巧的新文，从 iOS 开发的角度来剖析 MVC 和 MVVM，强烈推荐。
+Elastic view animation using UIBezierPath (@Danil)||http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/||本周的英文文章，教你用贝塞尔曲线创建炫酷的动画效果。||
+apple
+Money：货币处理专用库 (@danthorpe)||https://github.com/danthorpe/Money||产品国际化的必备工具，名字也是非常厉害。
+SwiftCop：表单验证工具 (@andresinaka)||https://github.com/andresinaka/SwiftCop||思路源自 ROR 的 Active Record。上手简单，代码可读性高，扩展性高。
+SwiftyRSA：RSA 编码工具 (@TakeScoop)||https://github.com/TakeScoop/SwiftyRSA||Scoop 官方出品，加密传输内容，保证安全性。||
+linux
+SwiftyRegex：正则框架 (@maxadamski)||https://github.com/maxadamski/SwiftyRegex||之前的周报中收录过另一个正则库，大家可以对比一下，学习如何编写跨平台的库。
+Venice：Swift 版 CSP (@Zewo)||https://github.com/Zewo/Venice||CSP 是一种形式化语言，用来描述并发系统的通信模式。简单来说，用这个库可以实现高性能的并发，因为其底层使用的是轻量级的协程。||
