@@ -165,6 +165,9 @@ body .footer a {
   color: #aaa;
   text-decoration: underline;
 }
+body .footer .heart {
+  color: #f00;
+}
 body ul.archive {
   position: absolute;
   transform-style: preserve-3d;
