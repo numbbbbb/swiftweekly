@@ -1,14 +1,14 @@
-这周生病，发完周报继续卧床，大家也要注意身体哦。
+北京大雪，你那里下雪了吗？当年还没有如此多的电子设备，玩玩雪就是最开心的事，再来堆一个雪人吧。
 article
-[译] 写给初学者的 Swift 教程 Part 1 (@小铁匠Linus)||http://swift.gg/2015/11/13/swift-tutorial-for-beginners-part-1/||又一位大牛开坑，非常详细的入门教程，我们会同步更新。
-[译] 函数和方法命名规范 (@天才175)||http://swift.gg/2015/11/12/naming-methods-and-functions/||“计算机科学中有且只有两个难题，命名和缓存失效。”——Phil Karlton
-[译] 使用 NSUndoManager 来进行撤销和重做 (@Yake)||http://swift.gg/2015/11/10/ios-undo-and-redo-with-nsundomanager/||适用于各类编辑器和绘图工具，用不上的先收藏，文到用时方恨少。
-被误解的 MVC 和被神化的 MVVM (@唐巧)||http://blog.devtang.com/blog/2015/11/02/mvc-and-mvvm/||唐巧的新文，从 iOS 开发的角度来剖析 MVC 和 MVVM，强烈推荐。
-Elastic view animation using UIBezierPath (@Danil)||http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/||本周的英文文章，教你用贝塞尔曲线创建炫酷的动画效果。||
+[译] Swift 中枚举高级用法及实践 (@小锅, @pmst)||http://swift.gg/2015/11/20/advanced-practical-enum-examples/||重磅长文，翻译组两个成员花费一个月时间翻译而成，一篇文章让你完全掌握枚举。
+[译] 3D Touch介绍：电子秤App与快捷操作 (@saitjr)||http://swift.gg/2015/11/19/3d-touch-tutorial/||把你的 iPhone 变成电子秤！脑洞大开的作者！（专业动作谨慎模仿，压坏 iPhone 概不负责= =）
+[译] Swift 中的函数式编程 (@小袋子)||http://swift.gg/2015/11/17/functional-programming-in-swift/||短文一篇，作者总结了自己对函数式编程的思考。
+iOS 保持界面流畅的技巧 (@ibireme)||http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/||从硬件的渲染原理开始介绍，非常详细和全面地介绍了各种优化技巧。
+Swift Optional Protocol Methods (@Use Your Loaf)||http://useyourloaf.com/blog/swift-optional-protocol-methods.html||本周的英文文章，介绍如何在协议中添加可选方法。||
 apple
-Money：货币处理专用库 (@danthorpe)||https://github.com/danthorpe/Money||产品国际化的必备工具，名字也是非常厉害。
-SwiftCop：表单验证工具 (@andresinaka)||https://github.com/andresinaka/SwiftCop||思路源自 ROR 的 Active Record。上手简单，代码可读性高，扩展性高。
-SwiftyRSA：RSA 编码工具 (@TakeScoop)||https://github.com/TakeScoop/SwiftyRSA||Scoop 官方出品，加密传输内容，保证安全性。||
+Swiftline：命令行应用创建工具 (@Swiftline)||https://github.com/Swiftline/Swiftline||封装了一些常见的命令行使用场景，比如彩色文字、获取用户输入、运行系统命令等等，非常有趣。
+Reachability.swift：Swift 版网络状态检测库 (@ashleymills)||https://github.com/ashleymills/Reachability.swift||用于替换苹果的 Reachability 类，可以方便地检测当前是否联网以及具体的联网状态。
+Device：获取设备信息和屏幕尺寸 (@Ekhoo)||https://github.com/Ekhoo/Device||可以非常方便的获取设备型号和屏幕尺寸，实现起来难度不大，大家可以学习一下源码。||
 linux
-SwiftyRegex：正则框架 (@maxadamski)||https://github.com/maxadamski/SwiftyRegex||之前的周报中收录过另一个正则库，大家可以对比一下，学习如何编写跨平台的库。
-Venice：Swift 版 CSP (@Zewo)||https://github.com/Zewo/Venice||CSP 是一种形式化语言，用来描述并发系统的通信模式。简单来说，用这个库可以实现高性能的并发，因为其底层使用的是轻量级的协程。||
+SwiftFoundation：重新实现苹果的 Swift 标准库！ (@PureSwift)||https://github.com/PureSwift/SwiftFoundation||终于有人来实现标准库了！！！这个工程一旦完成，我们就可以使用跨平台的 Foundation 和各种苹果不开源的标准库，速速支持！
+SwiftGraph：图像数据结构 (@davecom)||https://github.com/davecom/SwiftGraph||纯 Swift 实现跨平台的图像数据结构，百花齐放，百家争鸣~||
