@@ -1,14 +1,14 @@
-北京大雪，你那里下雪了吗？当年还没有如此多的电子设备，玩玩雪就是最开心的事，再来堆一个雪人吧。
+周刊的官网换了新域名：swiftweekly.cn，由@脉脉不得语 友情提供❤\n我们一定会把周刊一直办下去，给大家提供更加有价值的内容！
 article
-[译] Swift 中枚举高级用法及实践 (@小锅, @pmst)||http://swift.gg/2015/11/20/advanced-practical-enum-examples/||重磅长文，翻译组两个成员花费一个月时间翻译而成，一篇文章让你完全掌握枚举。
-[译] 3D Touch介绍：电子秤App与快捷操作 (@saitjr)||http://swift.gg/2015/11/19/3d-touch-tutorial/||把你的 iPhone 变成电子秤！脑洞大开的作者！（专业动作谨慎模仿，压坏 iPhone 概不负责= =）
-[译] Swift 中的函数式编程 (@小袋子)||http://swift.gg/2015/11/17/functional-programming-in-swift/||短文一篇，作者总结了自己对函数式编程的思考。
-iOS 保持界面流畅的技巧 (@ibireme)||http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/||从硬件的渲染原理开始介绍，非常详细和全面地介绍了各种优化技巧。
-Swift Optional Protocol Methods (@Use Your Loaf)||http://useyourloaf.com/blog/swift-optional-protocol-methods.html||本周的英文文章，介绍如何在协议中添加可选方法。||
+[译] Swift 反射 API 及用法 (@mmoaay)||http://swift.gg/2015/11/23/swift-reflection-api-what-you-can-do/||目前 Swift 的反射机制还不够强大，不过已经可以实现很多功能，比如最经典的 JSON 解析，推荐阅读。
+[译] tvOS 入门：开发你的第一个 tvOS 应用 (@pmst)||http://swift.gg/2015/11/25/tvos-introduction/||国外作者又开新坑，我们继续同步翻译！
+专访YYKit作者郭曜源：开源大牛是怎样炼成的 (@InfoQ)||http://www.infoq.com/cn/news/2015/11/ibireme-interview||最近很火的开源作者，他有什么来头？为什么能爆发出如此多的优秀开源项目？来看看唐巧对他做的专访。
+ReactiveCocoa vs RxSwift (@ashfurrow)||https://ashfurrow.com/blog/reactivecocoa-vs-rxswift/||本周的英文文章，响应式框架到底用哪个？作者的答案是：哪个都无所谓，学就是了。||
 apple
-Swiftline：命令行应用创建工具 (@Swiftline)||https://github.com/Swiftline/Swiftline||封装了一些常见的命令行使用场景，比如彩色文字、获取用户输入、运行系统命令等等，非常有趣。
-Reachability.swift：Swift 版网络状态检测库 (@ashleymills)||https://github.com/ashleymills/Reachability.swift||用于替换苹果的 Reachability 类，可以方便地检测当前是否联网以及具体的联网状态。
-Device：获取设备信息和屏幕尺寸 (@Ekhoo)||https://github.com/Ekhoo/Device||可以非常方便的获取设备型号和屏幕尺寸，实现起来难度不大，大家可以学习一下源码。||
+SQLite.swift：SQLite3 封装 (@stephencelis)||https://github.com/stephencelis/SQLite.swift||纯 Swift 实现的类型安全的 SQLite3 封装，数据存储和 JSON 解析是永恒的话题。
+jazzy：OC 和 Swift 文档生成工具 (@realm)||https://github.com/realm/jazzy||命令行工具，通过 hook Clang 和 SourceKit 来更精确地提取注释内容并生成文档，非常高端。
+Diamond：扩展 Swift 脚本能力 (@johnno1962)||https://github.com/johnno1962/Diamond||用 xcrun 来运行 Swift 脚本有很多限制。作者曲线救国，给脚本套了一层 Xcode 项目并把这个过程自动化，从而将 Xcode 项目的各种强大能力赋予 Swift 脚本。思路很有意思。
+netfox：iOS 网络调试工具 (@kasketis)||https://github.com/kasketis/netfox||配置只需一行代码，可以调试包括第三方库在内的网络请求。||
 linux
-SwiftFoundation：重新实现苹果的 Swift 标准库！ (@PureSwift)||https://github.com/PureSwift/SwiftFoundation||终于有人来实现标准库了！！！这个工程一旦完成，我们就可以使用跨平台的 Foundation 和各种苹果不开源的标准库，速速支持！
-SwiftGraph：图像数据结构 (@davecom)||https://github.com/davecom/SwiftGraph||纯 Swift 实现跨平台的图像数据结构，百花齐放，百家争鸣~||
+Perfect：Swift 服务端框架 (@PerfectlySoft)||https://github.com/PerfectlySoft/Perfect||这周爆红的 Swift 服务端框架，这个团队看起来是认真的，能否被真正应用到后端？拭目以待。
+Transporter：有限状态机 (@DenHeadless)||https://github.com/DenHeadless/Transporter||纯 Swift 实现的有限状态机，继续给 Swift 大厦添砖加瓦。||

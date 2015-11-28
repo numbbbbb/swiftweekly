@@ -40,7 +40,7 @@ fs.readFile('source', (err, data) => {
             <h2 style="margin:0 0 18px 0;color:#444;font-size:14px;font-weight:normal">
             <br />${abstract}
             <br />目前周刊由<a style="color:#07c;text-decoration:none" href="http://swift.gg" target="_blank"> SwiftGG 翻译组 </a>维护，每周推送最新的 Swift 文章和开源项目，帮助大家提高 Swift 姿势水平。
-            <br />请把<a style="color:#07c;text-decoration:none" href="http://doswift.io" target="_blank"> Swift 开发者周刊 </a>推荐给你的朋友，你的支持是我们最大的动力！
+            <br />请把<a style="color:#07c;text-decoration:none" href="http://swiftweekly.cn" target="_blank"> Swift 开发者周刊 </a>推荐给你的朋友，你的支持是我们最大的动力！
 
 </h2>
             <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">优秀文章</h3>
@@ -53,7 +53,7 @@ fs.readFile('source', (err, data) => {
             
             <p style="margin:0;color:#444;font-size:12px;line-height:20px;margin-bottom:18px;border-top:1px
                     solid
-                    #e0e0e0;margin-top:36px;padding-top:12px">因为你曾经订阅了<a href="http://doswift.io" style="color:#07c;text-decoration:none" target="_blank"> Swift 开发者周刊 </a>， 所以你会收到这封邮件。
+                    #e0e0e0;margin-top:36px;padding-top:12px">因为你曾经订阅了<a href="http://swiftweekly.cn" style="color:#07c;text-decoration:none" target="_blank"> Swift 开发者周刊 </a>， 所以你会收到这封邮件。
                 <br/> 我们保证你的邮箱地址将只用于 Swift 开发者周刊，你也可以随时取消订阅。
                 <br/> 我们尊重并保护你的隐私。
                 <br/> 如果你不愿意继续接收 Swift 开发者周刊，请点击
