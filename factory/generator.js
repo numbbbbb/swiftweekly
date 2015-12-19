@@ -39,8 +39,13 @@ fs.readFile('source', (err, data) => {
 
             <h2 style="margin:0 0 18px 0;color:#444;font-size:14px;font-weight:normal">
             <br />${abstract}
-            <br />目前周刊由<a style="color:#07c;text-decoration:none" href="http://swift.gg" target="_blank"> SwiftGG 翻译组 </a>维护，每周推送最新的 Swift 文章和开源项目，帮助大家提高 Swift 姿势水平。
+            <br />
+            <br />
+            <div style="padding-left: 10px; border-left: solid 2px #ccc;">
+            目前周刊由<a style="color:#07c;text-decoration:none" href="http://swift.gg" target="_blank"> SwiftGG 翻译组 </a>维护，每周推送最新的 Swift 文章和开源项目，帮助大家提高 Swift 姿势水平。
             <br />请把<a style="color:#07c;text-decoration:none" href="http://swiftweekly.cn" target="_blank"> Swift 开发者周刊 </a>推荐给你的朋友，你的支持是我们最大的动力！
+            </div>
+            
 
 </h2>
             <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">优秀文章</h3>
@@ -50,7 +55,12 @@ fs.readFile('source', (err, data) => {
             <h3 style="margin:24px 0 12px 0;border-bottom:1px solid #e0e0e0;padding-bottom:6px; color:#555; font-size:16px;">跨平台开源项目</h3>
             ${linuxs.join('\n')}
            
-            
+            <br />
+            <br />
+            <div style="padding-left: 10px; border-left: solid 2px #ccc;">
+            目前周刊由<a style="color:#07c;text-decoration:none" href="http://swift.gg" target="_blank"> SwiftGG 翻译组 </a>维护，每周推送最新的 Swift 文章和开源项目，帮助大家提高 Swift 姿势水平。
+            <br />请把<a style="color:#07c;text-decoration:none" href="http://swiftweekly.cn" target="_blank"> Swift 开发者周刊 </a>推荐给你的朋友，你的支持是我们最大的动力！
+            </div>
             <p style="margin:0;color:#444;font-size:12px;line-height:20px;margin-bottom:18px;border-top:1px
                     solid
                     #e0e0e0;margin-top:36px;padding-top:12px">因为你曾经订阅了<a href="http://swiftweekly.cn" style="color:#07c;text-decoration:none" target="_blank"> Swift 开发者周刊 </a>， 所以你会收到这封邮件。
