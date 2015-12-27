@@ -1,16 +1,16 @@
-Swift 开源之后，苹果官方有不少大动作。这周 Chris Lattner 在 Twitter 上公开了 Swift 官方文档并鼓励各国开发者进行翻译。 <br /> 值得庆祝的是，我们翻译组一直在维护的中文版翻译成为了全球第一个被苹果官方认可的翻译版，可以在 <a style="color:#07c;text-decoration:none" href="https://swift.org/documentation/#the-swift-programming-language" target="_blank"> Swift 官网 </a>看到我们的链接。 <br /> 我们会继续努力，给大家提供更多优质的译文！
+2015 年最后一期周刊，感谢大家的一路陪伴，Swift 走多远，周刊就会走多远！2016，我们来了！
 article
-[原创] 每周 Swift 社区问答 2015-12-16 (@shanks, @pmst)||http://swift.gg/2015/12/16/swift-qa-2015-12-16/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] Mixins 比继承更好 (@ray16897188)||http://swift.gg/2015/12/15/mixins-over-inheritance/||Mixin 和继承分别从纵向和横向对代码进行分割，是两种重要的代码组织方式。作者为什么说 Mixin 比继承更好呢？看了就知道。
-[译] Swift 的 NSDate 初学者指南 (@ray16897188)||http://swift.gg/2015/12/14/a-beginners-guide-to-nsdate-in-swift/||日期处理绝对是最常见的需求之一，每次遇到这种问题我都是直接搜索，这次终于可以完完整整的学习一遍了。
-[译] Swift 的变化：从 2.2 到 3.0 会带来什么 (@Channe)||http://swift.gg/2015/12/18/changing-swift-whats-coming-up-in-2-2-and-3-0/||Swift 3.0 预计在 2016 下半年发布。苹果官方已经公布了路线图（road map），来看看都有什么变化吧。
-接口编程那些事 (@庞海礁)||http://www.olinone.com/?p=429||Protocol 可以翻译成协议或者接口。在 Swift 中协议支持扩展，并且支持类、结构体和枚举，这让面向协议编程变得非常实用和强大，推荐阅读。
-Universal dynamic dispatch for method calls (@Chris Lattner)||https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151207/001948.html||本周英文文章，Chris Lattner 从语言设计层面介绍了为什么目前要同时使用动态派发和静态调用，对语言设计感兴趣的同学可以仔细阅读一下。||
+[原创] 每周 Swift 社区问答 2015-12-23 (@shanks)||http://swift.gg/2015/12/23/swift-qa-2015-12-23/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] 如何在 Swift 中使用 Alamofire 进行网络编程 (@小铁匠Linus)||http://swift.gg/2015/12/22/alamofire-beginner-guide/||Alamofire 是一个非常流行的网络库，本文详细介绍了 Alamofire 的用法以及 Node.js 的用法，文章不错，作者略微有点啰嗦。
+[译] Friday Q&A 2015-11-20：协变与逆变 (@Cee)||http://swift.gg/2015/12/24/friday-qa-2015-11-20-covariance-and-contravariance/||经典的“周五问答”系列，这篇深入介绍了子类和父类的替换规则，不要被术语吓到，放心去读。
+[译] 关于 Swift 演变的趣味探讨 (@小袋子)||http://swift.gg/2015/12/25/interesting-discussions-on-swift-evolution/||Swift 正在高速发展中，作者基于自己的使用经验提出了几点改进建议，很有意思，可以反过来思考一下语言的设计思想。
+小笨狼与LLDB的故事 (@小笨狼)||http://www.jianshu.com/p/e89af3e9a8d7||LLDB 是 Xcode 项目默认的调试工具，本文从零开始讲解如何使用 LLDB，可以帮助你充分发挥 LLDB 的强大威力。看完还不过瘾的可以去看《iOS 应用逆向工程》，进一步学习逆向。
+Introduction to Functional Programming in Swift (@Joe)||http://www.raywenderlich.com/114456/introduction-functional-programming-swift||本周英文文章，Ray Wenderlich 的新文，学习 Swift 函数编程。顺便推荐 objc.io 出品的《Functional Swift》。||
 apple
-Colors：打印彩色字符串 (@paulot)||https://github.com/paulot/Colors||可以修改 Swift 中终端输出的字符串颜色，有趣的小工具。
-SwiftyBeaver：日志工具 (@SwiftyBeaver)||https://github.com/SwiftyBeaver/SwiftyBeaver||一个完善的日志工具，支持彩色输出、输出内容到文件、重要性分级、多输出目标。工具执行在后台，不影响性能，可以极大提高开发效率。
-DateRangePicker：可能是目前最好的 OS X 日期选择器 (@MrMage)||https://github.com/MrMage/DateRangePicker||高扩展性，界面风格看起来很舒服，不过注意，是 OS X 开发专用。||
+Punctual.swift：Swift 日期扩展 (@harlanhaskins)||https://github.com/harlanhaskins/Punctual.swift||扩展了 Int、NSDateComponents、NSDate 和 NSCalendarUnit，可以方便的进行日期计算。
+Whisper：展示应用内通知 (@hyperoslo)||https://github.com/hyperoslo/Whisper||看腻了默认的 AlertView？来试试这个吧。可以用三种不同的样式来展示应用内通知，给用户带来一些新意。
+Tailor：跨平台静态分析工具 (@sleekbyte)||https://github.com/sleekbyte/tailor||代码分析工具，可以确保代码风格一致并且能避免一些潜在的 bug。||
 linux
-使用 Atom 创建一个跨平台 Swift IDE (@Ankit)||https://medium.com/@Aciid/hacking-atom-to-create-a-swift-ide-that-runs-on-linux-and-mac-c7d9520a0fac#.cl0mwqmys||Atom 是 GitHub 开源的一个 IDE，这篇文章介绍了如何把 Swift 包管理工具和 LLDB 集成到 Atom 中，从而创造一个跨平台的 Swift IDE。
-从源码编译 Swift 编译器 (@iachievedit)||http://dev.iachieved.it/iachievedit/keeping-up-with-open-source-swift/||没错，你完全可以直接使用 Swift 编译器，不过自己动手编译一遍一定会有新收获。
-Swiftest：Swift BDD 框架 (@bppr)||https://github.com/bppr/Swiftest||BDD 全称 Behavior Driven Development，行为驱动开发。各种 DD 数不胜数，孰优孰劣争论不休，其实归根结底还是要根据使用场景进行选择。||
+Sua Swift (@jpedrosa)||https://github.com/jpedrosa/sua_swift||这个项目收集了一些常见的 Swift 代码片段，可以在 Ubuntu/Linux 上直接运行，体验一下跨平台编程。
+开发自定义 Swift 模块 (@Erica Sadun)||http://ericasadun.com/2015/12/22/some-linuxy-swift-module-goodness/||简单介绍了如何在 Ubuntu 上开发一个自定义 Swift 模块。
+在 Swift 中使用 C 的可变参数函数 (@Rob)||https://akrabat.com/wrapping-variadic-functions-for-use-in-swift/||作者在封装 curl 的过程中开发了一个静态库，可以让 Swift 调用 C 的可变参数函数，对 C 有兴趣的同学可以阅读一下。||
