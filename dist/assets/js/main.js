@@ -24,4 +24,10 @@ $(function() {
       }
     })
   })
+  $.getJSON("http://ggchecker.githuber.info/subscribenumber", function(data) {
+    var contents = $.grep(data.result.split(" "), function(val, i) {
+      return !!val
+    })
+    $("span.number").html(contents[0])
+  })
 })
