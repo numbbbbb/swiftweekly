@@ -10,7 +10,8 @@ body {
   padding: 0 2rem;
 }
 body .wechat {
-  display: none;
+  position: fixed;
+  top: -9999px;
 }
 body h1.title {
   color: #5d504f;
