@@ -1,16 +1,15 @@
-2015 年最后一期周刊，感谢大家的一路陪伴，Swift 走多远，周刊就会走多远！2016，我们来了！
+元旦快乐！2016，继续努力，不断前行，加油！
 article
-[原创] 每周 Swift 社区问答 2015-12-23 (@shanks)||http://swift.gg/2015/12/23/swift-qa-2015-12-23/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] 如何在 Swift 中使用 Alamofire 进行网络编程 (@小铁匠Linus)||http://swift.gg/2015/12/22/alamofire-beginner-guide/||Alamofire 是一个非常流行的网络库，本文详细介绍了 Alamofire 的用法以及 Node.js 的用法，文章不错，作者略微有点啰嗦。
-[译] Friday Q&A 2015-11-20：协变与逆变 (@Cee)||http://swift.gg/2015/12/24/friday-qa-2015-11-20-covariance-and-contravariance/||经典的“周五问答”系列，这篇深入介绍了子类和父类的替换规则，不要被术语吓到，放心去读。
-[译] 关于 Swift 演变的趣味探讨 (@小袋子)||http://swift.gg/2015/12/25/interesting-discussions-on-swift-evolution/||Swift 正在高速发展中，作者基于自己的使用经验提出了几点改进建议，很有意思，可以反过来思考一下语言的设计思想。
-小笨狼与LLDB的故事 (@小笨狼)||http://www.jianshu.com/p/e89af3e9a8d7||LLDB 是 Xcode 项目默认的调试工具，本文从零开始讲解如何使用 LLDB，可以帮助你充分发挥 LLDB 的强大威力。看完还不过瘾的可以去看《iOS 应用逆向工程》，进一步学习逆向。
-Introduction to Functional Programming in Swift (@Joe)||http://www.raywenderlich.com/114456/introduction-functional-programming-swift||本周英文文章，Ray Wenderlich 的新文，学习 Swift 函数编程。顺便推荐 objc.io 出品的《Functional Swift》。||
+[原创] 每周 Swift 社区问答 2015-12-30 (@shanks)||http://swift.gg/2015/12/30/swift-qa-2015-12-30/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] 聚焦 Swift #0 (@pmst)||http://swift.gg/2015/12/29/swift-open-source/||刚拿到授权的新系列，作者每周会分析和解读 Swift 源码的最新发展，我们会持续更新，欢迎关注。
+[译] Friday Q&A 2015-12-11：Swift 中的弱引用 (@riven)||http://swift.gg/2015/12/28/friday-qa-2015-12-11-swift-weak-references/||经典的“周五问答”系列，详细介绍弱引用的具体实现机制，深入学习 Swift。
+[译] 如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用 (@小铁匠Linus)||http://swift.gg/2015/12/29/foursquare-realm-swift/||AppCoda 的新手向文章，详细到啰嗦的程度，从零开始实践 Realm。
+[译] 在团队开发中使用 CocoaPods 的小技巧 (@JackAlan)||http://swift.gg/2015/12/31/cocoapods-on-a-team/||如何解决团队成员 CocoaPods 版本不统一的问题？作者提供了一个简单的小技巧。
+Open Source Swift on Raspberry Pi 2 (@Joe)||http://dev.iachieved.it/iachievedit/open-source-swift-on-raspberry-pi-2/||本周英文文章，树莓派是一个卡片式电脑，可以做很多有趣的东西。本文介绍了如何在树莓派中使用 Swift，说不定以后 Swift 也能用在嵌入式开发。||
 apple
-Punctual.swift：Swift 日期扩展 (@harlanhaskins)||https://github.com/harlanhaskins/Punctual.swift||扩展了 Int、NSDateComponents、NSDate 和 NSCalendarUnit，可以方便的进行日期计算。
-Whisper：展示应用内通知 (@hyperoslo)||https://github.com/hyperoslo/Whisper||看腻了默认的 AlertView？来试试这个吧。可以用三种不同的样式来展示应用内通知，给用户带来一些新意。
-Tailor：跨平台静态分析工具 (@sleekbyte)||https://github.com/sleekbyte/tailor||代码分析工具，可以确保代码风格一致并且能避免一些潜在的 bug。||
+OpenEmu：在 OS X 上打电玩 (@OpenEmu)||https://github.com/OpenEmu/OpenEmu||支持近 30 种游戏机，GB、GBA、NES、NDS、PSP、PS……那些年偷偷玩的游戏还记得吗？来重温一下吧！
+Swift-Flow：单向数据流 (@Swift-Flow)||https://github.com/Swift-Flow/Swift-Flow||许多难调的 bug 都源自混乱的数据流。单向数据流可以简化代码逻辑和依赖关系，让代码更健壮。
+Refactorator：代码重构工具 (@johnno1962)||https://github.com/johnno1962/Refactorator||基于 SourceKit 实现的 Xcode 代码重构工具，不过貌似大家还是更喜欢查找替换，用来学习 SourceKit 很不错。||
 linux
-Sua Swift (@jpedrosa)||https://github.com/jpedrosa/sua_swift||这个项目收集了一些常见的 Swift 代码片段，可以在 Ubuntu/Linux 上直接运行，体验一下跨平台编程。
-开发自定义 Swift 模块 (@Erica Sadun)||http://ericasadun.com/2015/12/22/some-linuxy-swift-module-goodness/||简单介绍了如何在 Ubuntu 上开发一个自定义 Swift 模块。
-在 Swift 中使用 C 的可变参数函数 (@Rob)||https://akrabat.com/wrapping-variadic-functions-for-use-in-swift/||作者在封装 curl 的过程中开发了一个静态库，可以让 Swift 调用 C 的可变参数函数，对 C 有兴趣的同学可以阅读一下。||
+Caramel：异步 I/O 框架 (@CaramelForSwift)||https://github.com/CaramelForSwift/Caramel||基于 libuv（一个异步 I/O）封装了 Swift 风格的 API，可以处理文件、网络连接和 DNS 请求，适合用来开发服务器程序。
+Rainbow：命令行彩色输出 (@onevcat)||https://github.com/onevcat/Rainbow||喵神新作，跨平台命令行彩色输出，帮助你开发更加炫酷的命令行工具。||
