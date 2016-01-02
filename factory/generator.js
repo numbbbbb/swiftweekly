@@ -32,6 +32,7 @@ fs.readFile('source', (err, data) => {
 </head>
 
 <body style="margin: 0 auto;">
+    <img style="display:none;" src="http://swiftweekly.cn/assets/img/logo.png"></img>
     <div style="background-color:#f5f5f5; padding: 20px 0;">
         <div style="color:#333;margin:0 auto;padding:24px;max-width:700px;font-family:'Helvetica Neue',Helvetica,Arial,Sans-serif;font-size:13px;line-height:1.7;background-color:#fff">
         

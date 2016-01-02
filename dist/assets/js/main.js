@@ -20,7 +20,7 @@ $(function() {
     $(".sub").addClass("disabled").text("稍等")
     $.getJSON("http://ggchecker.githuber.info/addemail/" + $("#email").val().trim(), function(data) {
       if (data["success"] == "success") {
-        $(".main").html("<h3 style='color: #666'>订阅成功！多谢支持！</h3>")
+        $(".main").html("<h3 style='color: #666'>订阅成功！多谢支持！</h3>");
       }
     })
   })

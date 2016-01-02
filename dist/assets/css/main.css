@@ -9,6 +9,9 @@ body {
   text-align: center;
   padding: 0 2rem;
 }
+body .wechat {
+  display: none;
+}
 body h1.title {
   color: #5d504f;
   letter-spacing: 1px;
