@@ -1,15 +1,14 @@
-元旦快乐！2016，继续努力，不断前行，加油！
+明天就是<a style="color:#07c;text-decoration:none" href="http://atswift.io" target="_blank"> @Swift 开发者大会 </a>了！从开始到现在准备了接近半年的时间，希望能让大家有所收获。	
 article
-[原创] 每周 Swift 社区问答 2015-12-30 (@shanks)||http://swift.gg/2015/12/30/swift-qa-2015-12-30/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] 聚焦 Swift #0 (@pmst)||http://swift.gg/2015/12/29/swift-open-source/||刚拿到授权的新系列，作者每周会分析和解读 Swift 源码的最新发展，我们会持续更新，欢迎关注。
-[译] Friday Q&A 2015-12-11：Swift 中的弱引用 (@riven)||http://swift.gg/2015/12/28/friday-qa-2015-12-11-swift-weak-references/||经典的“周五问答”系列，详细介绍弱引用的具体实现机制，深入学习 Swift。
-[译] 如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用 (@小铁匠Linus)||http://swift.gg/2015/12/29/foursquare-realm-swift/||AppCoda 的新手向文章，详细到啰嗦的程度，从零开始实践 Realm。
-[译] 在团队开发中使用 CocoaPods 的小技巧 (@JackAlan)||http://swift.gg/2015/12/31/cocoapods-on-a-team/||如何解决团队成员 CocoaPods 版本不统一的问题？作者提供了一个简单的小技巧。
-Open Source Swift on Raspberry Pi 2 (@Joe)||http://dev.iachieved.it/iachievedit/open-source-swift-on-raspberry-pi-2/||本周英文文章，树莓派是一个卡片式电脑，可以做很多有趣的东西。本文介绍了如何在树莓派中使用 Swift，说不定以后 Swift 也能用在嵌入式开发。||
+[原创] 每周 Swift 社区问答 2016-01-06 (@shanks)||http://swift.gg/2016/01/06/swift-qa-2016-01-06/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] 聚焦 Swift #2 (@pmst)||http://swift.gg/2016/01/06/open-source-swift-weekly-2/||一个 commit 修复编译器 91% 的报错？来看看 Swift 源码最近又有什么新动态。
+[译] 在 Target-Action 中使用响应链 (@小铁匠Linus)||http://swift.gg/2016/01/06/utilize-the-responder-chain-for-target-action/||响应链是 iOS 中非常重要的一个机制，本文会介绍什么是响应链以及如何在 Target-Action 中使用它。
+[译] 如何使用 iOS 9 App 瘦身功能 (@JackAlan)||http://swift.gg/2016/01/07/app-thinning-appcoda/||App Thinning 是 Xcode 的新功能，开启之后用户可以只下载自己需要的应用文件和资源，从而加快下载速度，减少内存占用。
+[译] iOS 并发：从 NSOperation 和 Dispatch Queues 开始 (@ray16897188)||http://swift.gg/2016/01/08/ios-concurrency-getting-started-with-nsoperation-and-dispatch-queues/||长篇教程，详细介绍 iOS 并发的相关知识，存下来慢慢读吧。
+Swift 2.2 Release Process||https://swift.org/blog/swift-2-2-release-process/||本周英文文章，苹果官方的 Swift 2.2 发布进度，从 2016.1.13 开始 Swift 2.2 会在单独的分支进行开发，master 分支用来开发 Swift 3。||
 apple
-OpenEmu：在 OS X 上打电玩 (@OpenEmu)||https://github.com/OpenEmu/OpenEmu||支持近 30 种游戏机，GB、GBA、NES、NDS、PSP、PS……那些年偷偷玩的游戏还记得吗？来重温一下吧！
-Swift-Flow：单向数据流 (@Swift-Flow)||https://github.com/Swift-Flow/Swift-Flow||许多难调的 bug 都源自混乱的数据流。单向数据流可以简化代码逻辑和依赖关系，让代码更健壮。
-Refactorator：代码重构工具 (@johnno1962)||https://github.com/johnno1962/Refactorator||基于 SourceKit 实现的 Xcode 代码重构工具，不过貌似大家还是更喜欢查找替换，用来学习 SourceKit 很不错。||
+pomo.tv：在线观看技术分享 (@Chris Eidhof)||http://www.pomo.tv/||Chris Eidhof 大神开发的网站，目前已经有超过 500 个视频，专注于 Mac、iOS 和 Swift 开发。
+bitbar：在菜单栏上显示任何内容 (@matryer)||https://github.com/matryer/bitbar||Mac 专用，可以把脚本和程序的输出显示在屏幕右上角的菜单栏中，做一些自己的小工具会方便很多。||
 linux
-Caramel：异步 I/O 框架 (@CaramelForSwift)||https://github.com/CaramelForSwift/Caramel||基于 libuv（一个异步 I/O）封装了 Swift 风格的 API，可以处理文件、网络连接和 DNS 请求，适合用来开发服务器程序。
-Rainbow：命令行彩色输出 (@onevcat)||https://github.com/onevcat/Rainbow||喵神新作，跨平台命令行彩色输出，帮助你开发更加炫酷的命令行工具。||
+Swift socket 编程 (@iachievedit)||http://dev.iachieved.it/iachievedit/tcp-sockets-with-swift-on-linux||学习在 Linux 上用 Swift 操作 socket，写一个自己的服务器吧。
+UnchainedString：扩展 Swift 字符串功能 (@dunkelstern)||https://github.com/dunkelstern/UnchainedString||Linux 版本的 Swift 缺少很多重要的字符串处理函数，这个库提供了字符串查找和替换功能。||
