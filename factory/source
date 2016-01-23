@@ -1,15 +1,15 @@
-@Swift 大会圆满结束！认识了很多新朋友，能和这么多一线开发者交流真的很开心。<br />目前所有的演讲 keynote 已经发布在<a style="color:#07c;text-decoration:none" href="https://github.com/atConf/atswift-2016-resources" target="_blank"> GitHub </a>上，可以 Star 一下。视频正在制作中，敬请关注！	
+快过年啦！有人写年终总结吗？把链接发给我看看吧，互相学习~
 article
-[原创] 每周 Swift 社区问答 2016-01-13 (@shanks)||http://swift.gg/2016/01/13/swift-qa-2016-01-13/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] 初识 iOS 9 中新的联系人框架 (@BridgeQ, @星夜暮晨)||http://swift.gg/2016/01/12/ios-contacts-framework/||iOS 9 中新出的 Contacts 框架即将替换 AddressBook 框架，来学习一下如何使用新框架吧。
-[译] Swift包管理器：在Linux上创建和使用X11包 (@小锅)||http://swift.gg/2016/01/13/swift-ubuntu-x11-window-app/||Swift 包管理器是苹果推出的官方包管理起，本文介绍了如何创建和使用自己的包。
-[译] 关于 guard 的另一种观点 (@mmoaay)||http://swift.gg/2016/01/14/another-take-on-guard/||是否应该从代码中删除 guard 语法？作者对比了使用 guard 和不使用 guard 对应的代码，结论是应该保留 guard。
-[译] 要不要来点 Swift (@mmoaay)||http://swift.gg/2016/01/15/help-yourself-to-some-swift/||Swift 好处都有啥？作者从实践中总结了几个 Swift 的优点。
-ARC + Swift —— It “just works” — but how? (@Jordan)||https://medium.com/the-traveled-ios-developers-guide/arc-swift-d323535baecb#.vf6npyn6n||本周英文文章，介绍了 Swift 中的 ARC 工作原理，对内存管理不熟悉的同学要赶快补课了。||
+[原创] 每周 Swift 社区问答 2016-01-20 (@shanks)||http://swift.gg/2016/01/20/swift-qa-2016-01-20/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] iOS：如何用 Swift 实现弱代理 (@lfb_CD)||http://swift.gg/2016/01/19/ios-weak-delegates-swift/||weak 关键字可以避免内存泄露，但是如何在协议上使用 weak？来学习一个实用的小技巧。
+[译] 如何简单地模拟 NSURLSession 的返回数据 (@小袋子)||http://swift.gg/2016/01/22/an-easy-way-to-stub-nsurlsession/||在开发过程中经常要等后端开发接口，这非常低效。本文介绍了如何模拟 NSURLSession 返回数据，从而可以和后端并行开发，提高效率。
+[译] 在 Swift 中编写 watchOS 2 Hello World 程序 (@mmoaay)||http://swift.gg/2016/01/21/watchos-2-hello-world-app-in-swift/||又一位大神开坑介绍 watchOS 开发，第一篇照例是 Hello World。我们会继续跟进翻译。
+细说GCD（Grand Central Dispatch）如何用 (@戴铭)||http://www.jianshu.com/p/fbe6a654604c||GCD 和 JSON 一样，永远有新教程出现。我的建议：认真吃透一篇文章，真正掌握这门技术。
+Profiling your Swift compilation times (@Bryan Irace)||http://irace.me/swift-profiling/||很多人都在吐槽 Swift 的编译速度，如何解决问题？本文教你如何在 Xcode 中查看不同文件的编译耗时，找到项目的编译瓶颈。||
 apple
-Chameleon-Swift：Mac 版 UIKit (@unifiedh)||https://github.com/unifiedh/Chameleon-Swift||UIKit 这种好东西只能用在 iOS 上，能不能让 Mac 开发者也受益呢？当然能！万能的开发者们已经开始为 Mac 重写 UIKit。目前项目还处在开发阶段，不能用于生产环境。
-MockFive：测试用 Mock 框架 (@DeliciousRaspberryPi)||https://github.com/DeliciousRaspberryPi/MockFive||在 TDD 开发中，需要先跑通测试然后再写具体实现，因此需要先伪造出实现类和函数来通过测试，这就是 Mock。如果你的团队使用 TDD 开发流程，这个框架会非常有用。
-CaesarParser：JSON 和 Model 转换库 (@lancy)||https://github.com/lancy/CaesarParser||又一个 JSON 到 Model 转换工具，通过自定义操作符简化了代码编写，推荐阅读源码学习。||
+CoreDragon：跨应用拖拽库 (@nevyn)||https://github.com/nevyn/CoreDragon||常用的数据传递方式是“间接操作”，比如 context menus、modal view controller 和 share sheet，为什么不直接拖拽呢？CoreDragon 支持应用内和（iPad 上分屏使用的）应用间拖拽，更加直观。
+Zip：压缩/解压框架 (@marmelroy)||https://github.com/marmelroy/Zip||基于 minizip 开发的压缩/解压框架，或许可以用来减少应用大小。
+FolioReaderKit：ePub 阅读器 (@FolioReader)||https://github.com/FolioReader/FolioReaderKit||电子书领域博大精深，如果产品和电子书相关，可以研究一下这个项目。||
 linux
-SwiftyGPIO：GPIO 交互库 (@uraimo)||https://github.com/uraimo/SwiftyGPIO||GPIO 是嵌入式开发的概念，对应嵌入式设备的物理接口。这个库可以让 Swift 和设备的 GPIO 交互，从而实现开关功能，有树莓派的朋友可以玩起来了。
-使用 Swift 捕获 Linux 信号 (@Joe)||http://dev.iachieved.it/iachievedit/trapping-signals-with-swift-on-linux/||要想玩好 Swift，不仅需要熟悉 iOS，还需要熟悉 Linux 操作系统。这篇文章是个不错的切入点，可以扩展学习一下 Linux 系统中的信号机制。||
+使用 Ncurses 开发文字界面 (@Joe)||http://dev.iachieved.it/iachievedit/ncurses-with-swift-on-linux/||使用 Swift 在 Linux 上开发文字界面，或许不久之后我们就能玩 mud 游戏了！Swift 正在重新进化，从命令行到文字界面，从文字界面到图形界面，有趣！
+5110LCD_PCD8544.swift (@uraimo)||https://github.com/uraimo/5110LCD_PCD8544.swift||使用 Swift 来控制 LCD，回忆起了被数字电路支配的恐惧。||
