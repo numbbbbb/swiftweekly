@@ -1,15 +1,15 @@
-快过年啦！有人写年终总结吗？把链接发给我看看吧，互相学习~
+新年快乐！春节期间周刊停发，给大家拜个晚年。<br />今年 iOS 领域有很多令人期待的大事，WWDC 2016、Swift 3.0 还有无数即将出现的 Swift 开源项目，	玩起来！
 article
-[原创] 每周 Swift 社区问答 2016-01-20 (@shanks)||http://swift.gg/2016/01/20/swift-qa-2016-01-20/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] iOS：如何用 Swift 实现弱代理 (@lfb_CD)||http://swift.gg/2016/01/19/ios-weak-delegates-swift/||weak 关键字可以避免内存泄露，但是如何在协议上使用 weak？来学习一个实用的小技巧。
-[译] 如何简单地模拟 NSURLSession 的返回数据 (@小袋子)||http://swift.gg/2016/01/22/an-easy-way-to-stub-nsurlsession/||在开发过程中经常要等后端开发接口，这非常低效。本文介绍了如何模拟 NSURLSession 返回数据，从而可以和后端并行开发，提高效率。
-[译] 在 Swift 中编写 watchOS 2 Hello World 程序 (@mmoaay)||http://swift.gg/2016/01/21/watchos-2-hello-world-app-in-swift/||又一位大神开坑介绍 watchOS 开发，第一篇照例是 Hello World。我们会继续跟进翻译。
-细说GCD（Grand Central Dispatch）如何用 (@戴铭)||http://www.jianshu.com/p/fbe6a654604c||GCD 和 JSON 一样，永远有新教程出现。我的建议：认真吃透一篇文章，真正掌握这门技术。
-Profiling your Swift compilation times (@Bryan Irace)||http://irace.me/swift-profiling/||很多人都在吐槽 Swift 的编译速度，如何解决问题？本文教你如何在 Xcode 中查看不同文件的编译耗时，找到项目的编译瓶颈。||
+[原创] 每周 Swift 社区问答 2016-02-17 (@shanks)||http://swift.gg/2016/02/17/swift-qa-2016-02-17/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] 如何成为一名入门级 iOS 开发者 (@ray16897188)||http://swift.gg/2016/02/15/how-to-become-a-developer-1/||成为入门级 iOS 开发者需要具备什么技能？需要学习什么工具？来看看这位作者总结的内容。
+[译] 如何处理 Swift 中的异步错误 (@ray16897188)||http://swift.gg/2016/02/16/async-errors/||为什么不能用 throw 处理异步错误？如何正确处理异步错误？什么是 Promise？看完你就全懂了，强烈推荐！
+[译] 使用 guard 的正确姿势 (@Prayer)||http://swift.gg/2016/02/14/swift-guard-radix/||guard 语法乍一看很简单，想用好可不容易。什么情况下适合用 guard，什么情况下不适合？这篇文字给你答案。
+如何打造一个让人愉快的框架 (@onevcat)||http://onevcat.com/2016/01/create-framework/||喵神在@Swift 大会上的演讲内容，不用多说，喵神出品必属精品。
+The Switch Statement in Swift (@Andy)||http://andybargh.com/2016/02/17/switch-statement-in-swift/||本周的英文文章，详细介绍了 Swift 中的 Switch 语句，难度不大，练英语的好机会。||
 apple
-CoreDragon：跨应用拖拽库 (@nevyn)||https://github.com/nevyn/CoreDragon||常用的数据传递方式是“间接操作”，比如 context menus、modal view controller 和 share sheet，为什么不直接拖拽呢？CoreDragon 支持应用内和（iPad 上分屏使用的）应用间拖拽，更加直观。
-Zip：压缩/解压框架 (@marmelroy)||https://github.com/marmelroy/Zip||基于 minizip 开发的压缩/解压框架，或许可以用来减少应用大小。
-FolioReaderKit：ePub 阅读器 (@FolioReader)||https://github.com/FolioReader/FolioReaderKit||电子书领域博大精深，如果产品和电子书相关，可以研究一下这个项目。||
+Material：Material Design 风格控件 (@CosmicMind)||https://github.com/CosmicMind/Material||Material Design 是 Google 推出的风格指南，现在你也可以在 iOS 中使用了。
+FileBrowser：手机上的 Finder (@marmelroy)||https://github.com/marmelroy/FileBrowser||按照 Finder 风格制作的 iPhone 文件管理器，支持 3D Touch，支持预览多种文件，学习源码的好项目。
+SPTDataLoader：Spotify 官方 HTTP 库 (@spotify)||https://github.com/spotify/SPTDataLoader||Spotify 是一款评价极高的音乐软件，最近开源了他们 iOS 端的 HTTP 库，来看看 Spotify 的代码是否像他们的设计一样牛。||
 linux
-使用 Ncurses 开发文字界面 (@Joe)||http://dev.iachieved.it/iachievedit/ncurses-with-swift-on-linux/||使用 Swift 在 Linux 上开发文字界面，或许不久之后我们就能玩 mud 游戏了！Swift 正在重新进化，从命令行到文字界面，从文字界面到图形界面，有趣！
-5110LCD_PCD8544.swift (@uraimo)||https://github.com/uraimo/5110LCD_PCD8544.swift||使用 Swift 来控制 LCD，回忆起了被数字电路支配的恐惧。||
+blackfish (@elliottminns)||https://github.com/elliottminns/blackfish||受 Node.js 和 Express 启发，作者用 Swift 开发了一个 web 框架，写过 Express 的同学迁移过来会很轻松。
+PMJSON (@postmates)||https://github.com/postmates/PMJSON||纯 Swift JSON 解析器，可以在 Linux 中使用。虽然项目很前卫，但是命名仍然是一股浓浓的 OC 风……||
