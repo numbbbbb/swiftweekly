@@ -1,15 +1,15 @@
-新年快乐！春节期间周刊停发，给大家拜个晚年。<br />今年 iOS 领域有很多令人期待的大事，WWDC 2016、Swift 3.0 还有无数即将出现的 Swift 开源项目，	玩起来！
+最近 SwiftGG 的官网做了两次改版，大家感觉怎么样，有没有清爽一些呢？<br />本周增加了两个授权网站，新内容很快就会和大家见面啦！我们会努力去谈更多翻译授权，让大家看到更多优质内容。
 article
-[原创] 每周 Swift 社区问答 2016-02-17 (@shanks)||http://swift.gg/2016/02/17/swift-qa-2016-02-17/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] 如何成为一名入门级 iOS 开发者 (@ray16897188)||http://swift.gg/2016/02/15/how-to-become-a-developer-1/||成为入门级 iOS 开发者需要具备什么技能？需要学习什么工具？来看看这位作者总结的内容。
-[译] 如何处理 Swift 中的异步错误 (@ray16897188)||http://swift.gg/2016/02/16/async-errors/||为什么不能用 throw 处理异步错误？如何正确处理异步错误？什么是 Promise？看完你就全懂了，强烈推荐！
-[译] 使用 guard 的正确姿势 (@Prayer)||http://swift.gg/2016/02/14/swift-guard-radix/||guard 语法乍一看很简单，想用好可不容易。什么情况下适合用 guard，什么情况下不适合？这篇文字给你答案。
-如何打造一个让人愉快的框架 (@onevcat)||http://onevcat.com/2016/01/create-framework/||喵神在@Swift 大会上的演讲内容，不用多说，喵神出品必属精品。
-The Switch Statement in Swift (@Andy)||http://andybargh.com/2016/02/17/switch-statement-in-swift/||本周的英文文章，详细介绍了 Swift 中的 Switch 语句，难度不大，练英语的好机会。||
+[原创] 每周 Swift 社区问答 2016-02-24 (@shanks)||http://swift.gg/2016/02/24/swift-qa-2016-02-24/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] Swift 3.0 介绍 (@Cee)||http://swift.gg/2016/02/25/introducing-swift-3-0/||这篇文章并不是介绍 Swift 3.0 的改动，而是教你如何安装 Swift 3.0。你没听错，现在你就可以在 Linux 上安装并使用 Swift 3.0！
+[译] 我的开源之旅 (@小锅)||http://swift.gg/2016/02/24/the-opensource-experience/||作者是 CocoaPods 的核心开发者，但是在成为核心之前，他和我们所有人一样，只是把 GitHub 当下载站用。到底是什么让他接触并爱上开源？从开源中可以收获什么？来看看他的开源之旅。
+[译] 在 Cocoa 中实现 ICU 文本变换 (@aaaron7)||http://swift.gg/2016/02/23/cocoa-icu-text-transforms/||如何把“上海”变成“shàng hǎi”？Swift 自带的函数可以一步搞定！
+Apple Pay 入门 (@apple)||https://developer.apple.com/apple-pay/get-started/cn/||今天你吃麦当劳了吗？最近 Apple Pay 火到不行，作为开发者，不光要学会换区绑卡，还要了解更多。这是苹果官方的 Apple Pay 入门介绍，读读看。（请勿吐槽苹果中文，有中文版就不错了！）
+Enhancing UIViews Using Extensions (@Holko)||http://holko.pl/2016/02/16/enhancing-uiviews/||本周的英文文章，看名字就知道是教你怎么用扩展。本文介绍如何用扩展实现一个 label 动画，文章难度不大，适合阅读。||
 apple
-Material：Material Design 风格控件 (@CosmicMind)||https://github.com/CosmicMind/Material||Material Design 是 Google 推出的风格指南，现在你也可以在 iOS 中使用了。
-FileBrowser：手机上的 Finder (@marmelroy)||https://github.com/marmelroy/FileBrowser||按照 Finder 风格制作的 iPhone 文件管理器，支持 3D Touch，支持预览多种文件，学习源码的好项目。
-SPTDataLoader：Spotify 官方 HTTP 库 (@spotify)||https://github.com/spotify/SPTDataLoader||Spotify 是一款评价极高的音乐软件，最近开源了他们 iOS 端的 HTTP 库，来看看 Spotify 的代码是否像他们的设计一样牛。||
+Charter：Swift 邮件列表客户端 (@Charter)||https://github.com/matthewpalmer/Charter||支持 iPad 和 iPhone，应用本身比较简单，可以当做阅读源码的练习。
+URLNavigator：URL 路由 (@devxoul)||https://github.com/devxoul/URLNavigator||URL Scheme 和 Universal Link 可以实现应用间和应用内跳转，但是基础的使用方法无法应对复杂的跳转需求。这个库可以让你声明 URL 及其对应行为，这样你就可以将重点放在行为开发而不是 URL 处理上。||
 linux
-blackfish (@elliottminns)||https://github.com/elliottminns/blackfish||受 Node.js 和 Express 启发，作者用 Swift 开发了一个 web 框架，写过 Express 的同学迁移过来会很轻松。
-PMJSON (@postmates)||https://github.com/postmates/PMJSON||纯 Swift JSON 解析器，可以在 Linux 中使用。虽然项目很前卫，但是命名仍然是一股浓浓的 OC 风……||
+Kitura：Web 框架和 HTTP 服务器 (@IBM)||https://github.com/IBM-Swift/Kitura||IBM 官方推出的 Swift Web 框架和 HTTP 服务器。开源项目最怕的是什么？作者弃坑。IBM 三个字就是定心丸，放心用就是了。
+Swifton：类似 RoR 的 Web 框架 (@necolt)||https://github.com/necolt/Swifton||最近那张 Taylor Swift 在铁轨上的图大家都看到了吧？就是这个项目，SoR。上周的周刊我们推荐了一个类似 Express 的框架，这次是类似 RoR，下次会不会有 ThinkSwift？
+swiftenv：Swift 版本管理器 (@kylef)||https://github.com/kylef/swiftenv||用过 Node.js 的同学对 nvm 应该不陌生，这个项目功能类似，可以帮你管理电脑上的多个 Swift 版本，一键切换。此外它还支持为不同项目设置不同的 Swift 版本，非常好用。||
