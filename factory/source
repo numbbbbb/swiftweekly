@@ -1,15 +1,17 @@
-最近 SwiftGG 的官网做了两次改版，大家感觉怎么样，有没有清爽一些呢？<br />本周增加了两个授权网站，新内容很快就会和大家见面啦！我们会努力去谈更多翻译授权，让大家看到更多优质内容。
+前方高能！本周跨平台的库不多，但是有大量 iOS 上的 Swift 新项目！赶快学习起来吧！<br />另外，四月底上海会有一场 Swift 大会，感兴趣的同学可以<a style="color:#07c;text-decoration:none" href="http://swiftconchina.com" target="_blank">去看看~</a>
 article
-[原创] 每周 Swift 社区问答 2016-02-24 (@shanks)||http://swift.gg/2016/02/24/swift-qa-2016-02-24/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] Swift 3.0 介绍 (@Cee)||http://swift.gg/2016/02/25/introducing-swift-3-0/||这篇文章并不是介绍 Swift 3.0 的改动，而是教你如何安装 Swift 3.0。你没听错，现在你就可以在 Linux 上安装并使用 Swift 3.0！
-[译] 我的开源之旅 (@小锅)||http://swift.gg/2016/02/24/the-opensource-experience/||作者是 CocoaPods 的核心开发者，但是在成为核心之前，他和我们所有人一样，只是把 GitHub 当下载站用。到底是什么让他接触并爱上开源？从开源中可以收获什么？来看看他的开源之旅。
-[译] 在 Cocoa 中实现 ICU 文本变换 (@aaaron7)||http://swift.gg/2016/02/23/cocoa-icu-text-transforms/||如何把“上海”变成“shàng hǎi”？Swift 自带的函数可以一步搞定！
-Apple Pay 入门 (@apple)||https://developer.apple.com/apple-pay/get-started/cn/||今天你吃麦当劳了吗？最近 Apple Pay 火到不行，作为开发者，不光要学会换区绑卡，还要了解更多。这是苹果官方的 Apple Pay 入门介绍，读读看。（请勿吐槽苹果中文，有中文版就不错了！）
-Enhancing UIViews Using Extensions (@Holko)||http://holko.pl/2016/02/16/enhancing-uiviews/||本周的英文文章，看名字就知道是教你怎么用扩展。本文介绍如何用扩展实现一个 label 动画，文章难度不大，适合阅读。||
+[原创] 每周 Swift 社区问答 2016-03-02 (@shanks)||http://swift.gg/2016/03/02/swift-qa-2016-03-02/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] 也谈 Swift 日志 (@DianQK)||http://swift.gg/2016/02/29/another-look-at-swift-logging/||作者为 Linux 上的 Swift 开发了一个日志记录程序，支持 Swift 包管理程序，支持彩色输出，支持写入文件。如果你准备开发全平台的 Swift 库，来看看这个吧~
+[译] 在 Linux 中使用 Swift 进行 TCP Sockets 编程 (@shanks)||http://swift.gg/2016/03/01/tcp-sockets-with-swift-on-linux/||看名字就知道了，Socket 编程。C 语言的 Socket 编程应该是不少人的噩梦吧？现在你可以用现代化的 Swift 来编写了，借这个机会认真学一次 Socket。
+[译] Swift GYB 简易教程 (@ahfepj)||http://swift.gg/2016/03/04/a-short-swift-gyb-tutorial/||GYB 是 Swift 内部使用的一个工具，可以通过模板来生成类似的代码。如果你的项目中有大量结构相似的代码，可以提取成模板，用 GYB 来统一维护。GYB 的用法非常简单，看完本文就可以去露一手了~
+MLeaksFinder：精准 iOS 内存泄露检测工具 (@zepo)||http://wereadteam.github.io/2016/02/22/MLeaksFinder/||比起 Instrument，MLeaksFinder 更加简单易用，本文介绍了如何使用这个工具。
+Swift Abstract Syntax Tree (@Ankit)||http://ankit.im/swift/2016/02/29/swift-abstract-syntax-tree/||本周的英文文章。AST 是抽象语法树，编译器读入你的源代码后会解析并生成一个 AST，然后对 AST 做后续操作。本文介绍了如何获取 Swift 的 AST，从而能做一些有趣的事情——比如实现目前还不支持的高级反射技术。||
 apple
-Charter：Swift 邮件列表客户端 (@Charter)||https://github.com/matthewpalmer/Charter||支持 iPad 和 iPhone，应用本身比较简单，可以当做阅读源码的练习。
-URLNavigator：URL 路由 (@devxoul)||https://github.com/devxoul/URLNavigator||URL Scheme 和 Universal Link 可以实现应用间和应用内跳转，但是基础的使用方法无法应对复杂的跳转需求。这个库可以让你声明 URL 及其对应行为，这样你就可以将重点放在行为开发而不是 URL 处理上。||
+RealReachability：监控后端连接状态 (@dustturtle)||https://github.com/dustturtle/RealReachability||Reachability 只能监控本地连接的状态，这个项目更进一步，通过 ping 来保证到后端的连接也可用。如果你的应用对网络环境敏感，一定要看看这个项目。
+greedo-layout-for-ios：响应式网格布局 (@500px)||https://github.com/500px/greedo-layout-for-ios||500px 出品的布局库，能够在固定 cell 高度的情况下自动调整图片宽度，让每行的图片都能以最佳状态显示。
+BTree：高性能有序集合 (@lorentey)||https://github.com/lorentey/BTree||使用内存中的 B-Tree 来实现高性能有序集合，如果你的应用要进行大量集合操作，这是个很好用的工具。
+Surge：高性能数字计算库 (@mattt)||https://github.com/mattt/Surge||Mattt 大神的新作，利用 Accelerate 框架实现了许多常用的数学运算、数字信号处理和图像计算。
+Hue：颜色工具库 (@hyperoslo)||https://github.com/hyperoslo/Hue||16 进制转 UIColor、判断颜色是深是浅、添加 Alpha 通道、设置渐变色、计算图片主要颜色……这个库包含了一切你能想到的颜色操作，all-in-one！
+Markoff：轻量级 OS X Markdown 预览工具 (@thoughtbot)||https://github.com/thoughtbot/Markoff||Markdown 工具数不胜数，开源出来的不多。此外，这个项目运行在 OS X，是一个很不错的学习案例。
 linux
-Kitura：Web 框架和 HTTP 服务器 (@IBM)||https://github.com/IBM-Swift/Kitura||IBM 官方推出的 Swift Web 框架和 HTTP 服务器。开源项目最怕的是什么？作者弃坑。IBM 三个字就是定心丸，放心用就是了。
-Swifton：类似 RoR 的 Web 框架 (@necolt)||https://github.com/necolt/Swifton||最近那张 Taylor Swift 在铁轨上的图大家都看到了吧？就是这个项目，SoR。上周的周刊我们推荐了一个类似 Express 的框架，这次是类似 RoR，下次会不会有 ThinkSwift？
-swiftenv：Swift 版本管理器 (@kylef)||https://github.com/kylef/swiftenv||用过 Node.js 的同学对 nvm 应该不陌生，这个项目功能类似，可以帮你管理电脑上的多个 Swift 版本，一键切换。此外它还支持为不同项目设置不同的 Swift 版本，非常好用。||
+Express：Web 服务器 (@crossroadlabs)||https://github.com/crossroadlabs/Express||上上周我们介绍了一个模仿 Express.js 的 blackfish，这周直接来了一个 Express！顾名思义，Express 的 Swift 版本。项目刚起步，有待观察。||
