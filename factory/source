@@ -1,17 +1,13 @@
-前方高能！本周跨平台的库不多，但是有大量 iOS 上的 Swift 新项目！赶快学习起来吧！<br />另外，四月底上海会有一场 Swift 大会，感兴趣的同学可以<a style="color:#07c;text-decoration:none" href="http://swiftconchina.com" target="_blank">去看看~</a>
+本周苹果搞了个大新闻，WWDC 2015 的视频出了官方中文字幕！中文成为英语之外的第一种苹果官方字幕。<br />观看方法：使用 Safari 访问<a style="color:#07c;text-decoration:none" href="https://developer.apple.com/videos/wwdc2015/" target="_blank"> 苹果官网 </a>，点击任意一个视频，在播放器右下角切换中文字幕。
 article
-[原创] 每周 Swift 社区问答 2016-03-02 (@shanks)||http://swift.gg/2016/03/02/swift-qa-2016-03-02/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] 也谈 Swift 日志 (@DianQK)||http://swift.gg/2016/02/29/another-look-at-swift-logging/||作者为 Linux 上的 Swift 开发了一个日志记录程序，支持 Swift 包管理程序，支持彩色输出，支持写入文件。如果你准备开发全平台的 Swift 库，来看看这个吧~
-[译] 在 Linux 中使用 Swift 进行 TCP Sockets 编程 (@shanks)||http://swift.gg/2016/03/01/tcp-sockets-with-swift-on-linux/||看名字就知道了，Socket 编程。C 语言的 Socket 编程应该是不少人的噩梦吧？现在你可以用现代化的 Swift 来编写了，借这个机会认真学一次 Socket。
-[译] Swift GYB 简易教程 (@ahfepj)||http://swift.gg/2016/03/04/a-short-swift-gyb-tutorial/||GYB 是 Swift 内部使用的一个工具，可以通过模板来生成类似的代码。如果你的项目中有大量结构相似的代码，可以提取成模板，用 GYB 来统一维护。GYB 的用法非常简单，看完本文就可以去露一手了~
-MLeaksFinder：精准 iOS 内存泄露检测工具 (@zepo)||http://wereadteam.github.io/2016/02/22/MLeaksFinder/||比起 Instrument，MLeaksFinder 更加简单易用，本文介绍了如何使用这个工具。
-Swift Abstract Syntax Tree (@Ankit)||http://ankit.im/swift/2016/02/29/swift-abstract-syntax-tree/||本周的英文文章。AST 是抽象语法树，编译器读入你的源代码后会解析并生成一个 AST，然后对 AST 做后续操作。本文介绍了如何获取 Swift 的 AST，从而能做一些有趣的事情——比如实现目前还不支持的高级反射技术。||
+[原创] 每周 Swift 社区问答 2016-03-09（第十二期） (@shanks)||http://swift.gg/2016/03/09/swift-qa-2016-03-09/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] 发现循环引用的方法 (@DianQK)||http://swift.gg/2016/03/09/a-trick-to-discover-retain-cycles/||最近不少小伙伴在准备面试，被问到最多的问题之一就是“如何检测循环引用”。本文讲了一种简单有效的检测方法，目前的第三方检测工具也大多采用这种方法，强烈推荐。
+[译] 别让双手闲下来，来做一些练手项目吧 (@saitjr)||http://swift.gg/2016/03/08/how-to-start-an-ios-app-portfolio/||学完了语法知识，下一步干嘛？来做一个练手项目吧！作者建议模仿根据法律法规无法访问的 Twitter，国内的开发者可以找个类似的东西代替，比如微博。总之，不要停，坚持写下去，一定会有收获！
+[译] 初探 Swift Sequences 和 Generators (@CoderAFI)||http://swift.gg/2016/03/10/experimenting-with-swift-2-sequencetype-generatortype/||序列和生成器，这两个词你一定不陌生。如果还没有掌握它们，那一定要抓紧补课了。
+Queue in swift (@Zeeshan)||https://izeeshan.wordpress.com/2016/03/05/queue-in-swift/||本周的英文文章，介绍如何实现一个简单的队列结构，用到了许多 Swift 特性，可以巩固一下 Swift 的基础知识。||
 apple
-RealReachability：监控后端连接状态 (@dustturtle)||https://github.com/dustturtle/RealReachability||Reachability 只能监控本地连接的状态，这个项目更进一步，通过 ping 来保证到后端的连接也可用。如果你的应用对网络环境敏感，一定要看看这个项目。
-greedo-layout-for-ios：响应式网格布局 (@500px)||https://github.com/500px/greedo-layout-for-ios||500px 出品的布局库，能够在固定 cell 高度的情况下自动调整图片宽度，让每行的图片都能以最佳状态显示。
-BTree：高性能有序集合 (@lorentey)||https://github.com/lorentey/BTree||使用内存中的 B-Tree 来实现高性能有序集合，如果你的应用要进行大量集合操作，这是个很好用的工具。
-Surge：高性能数字计算库 (@mattt)||https://github.com/mattt/Surge||Mattt 大神的新作，利用 Accelerate 框架实现了许多常用的数学运算、数字信号处理和图像计算。
-Hue：颜色工具库 (@hyperoslo)||https://github.com/hyperoslo/Hue||16 进制转 UIColor、判断颜色是深是浅、添加 Alpha 通道、设置渐变色、计算图片主要颜色……这个库包含了一切你能想到的颜色操作，all-in-one！
-Markoff：轻量级 OS X Markdown 预览工具 (@thoughtbot)||https://github.com/thoughtbot/Markoff||Markdown 工具数不胜数，开源出来的不多。此外，这个项目运行在 OS X，是一个很不错的学习案例。
+swift-utils：Swift 工具箱 (@eonist)||https://github.com/eonist/swift-utils||整理了常见的 Swift 工具函数，涉及 SVG 操作、图像操作、XML 操作、正则表达式等各多种内容。
+Dwifft：更加优雅的 reloadData 实现 (@jflinter)||https://github.com/jflinter/Dwifft||使用 UITableView 和 UICollectionView 时，经常需要在数据改变之后更新界面。reloadData 有很多缺点：没有动画效果，并且无法保留用户的滚动位置。insertRowsAtIndexPaths:withRowAnimation 和 deleteRowsAtIndexPaths:withRowAnimation 虽然能解决问题，但是你需要计算出改变的内容。作者实现了一个最长公共子序列算法，帮助你快速计算出数据变动，从而优雅地实现界面更新。
+Stevia：给人用的 Auto Layout 库 (@s4cha)||https://github.com/s4cha/Stevia||Xib 和 storyboard 比较重，难维护，代码也很难合并。作者推荐在代码中添加 Auto Layout，但是 Auto Layout 代码又是出名的难读。因此作者封装并设计了一系列 API，帮助你编写可读性更高的 Auto Layout 代码。||
 linux
-Express：Web 服务器 (@crossroadlabs)||https://github.com/crossroadlabs/Express||上上周我们介绍了一个模仿 Express.js 的 blackfish，这周直接来了一个 Express！顾名思义，Express 的 Swift 版本。项目刚起步，有待观察。||
+Using swiftenv To Install and Manage Swift Versions (@Ben Snider)||http://www.bensnider.com/using-swiftenv-to-install-and-manage-swift-versions.html||之前周报推荐过 swiftenv，一个 Swift 版本管理工具。本文是一篇教程，介绍如何使用 swiftenv 来维护多版本 Swift。||
