@@ -1,14 +1,16 @@
-本周的发布会大家都看了吗？个人感觉最值得关注的就是 Swift 2.2……期待 WWDC 吧。
-[原创] 每周 Swift 社区问答 2016-03-23（第十四期） (@shanks)||http://swift.gg/2016/03/23/swift-qa-2016-03-23/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[原创] Swift 2.2 的新特性 (@walkingway)||http://swift.gg/2016/03/23/swift-22-new-features/||本周苹果发布了 Swift 2.2，来看看都有什么新特性吧。
-[译] “懒”点儿好 (@ray16897188)||http://swift.gg/2016/03/25/being-lazy/||懒一点，再懒一点，lazy 详解。
-[译] Swift 3.0：你的代码即将崩坏 (@Crystal Sun)||http://swift.gg/2016/03/22/getting-ready-for-swift-to-stop-breaking-code/|| Swift 3.0 已经确定了大量破坏性的改动，官方开发团队计划将所有破坏性改动都集中到版本 3，从而减少之后版本的破坏性。这篇文章是一个预警，请各位开发者做好加班准备。
-[译] Xcode7 中用 Swift 做单元测试 (@ray16897188)||http://swift.gg/2016/03/23/unit-testing-swift/||AppCoda 的长文，手把手教你做测试。
-How We Migrated Our Objective C Projects to Swift (@Gergely Orosz)||http://codevoyagers.com/2016/03/23/how-we-migrated-our-objective-c-projects-to-swift-step-by-step/||本周的英文文章。经常旅游的同学对天巡一定不陌生，这篇文章就是天巡工程师将 OC 项目迁移到 Swift 的详细过程。如果你也有迁移的想法，一定要看看他们是怎么做的。||
-apple
-Coderpursue：GitHub 客户端 (@wenghengcong)||https://github.com/wenghengcong/Coderpursue||纯 Swift 编写的 GitHub 客户端。GitHub 的 API 功能强大文档详尽，借助 API 可以做很多有趣的事情，比如——一个 GitHub 客户端。
-Tailor：Swift.org 小插件 (@kimar)||https://github.com/kimar/Tailor||一个 Mac 应用，可以让你在状态栏直接查看 Swift.org 的最新文章。虽然我自己不太喜欢这样的阅读方式，不过用这个项目学习 Mac 开发还是很不错的。
-Countdown：Mac 动态屏保 (@soffes)||https://github.com/soffes/Countdown||又一个 Mac 应用，设置好日期时间之后，可以在屏保显示倒计时。对屏保感兴趣的同学可以研究下这个项目，很有趣。||
-linux
-SwifterSockets：Socket 工具库 (@Swiftrien)||https://github.com/Swiftrien/SwifterSockets||最近和 Socket 有关的项目和文章层出不穷，这不，又来了一个。这个项目集合了许多常用的 Socket 工具函数，可以方便地在客户端和服务器端实现 Socket 通信。
-Evergreen：日志工具 (@viWiD)||https://github.com/viwid/Evergreen||又一个日志工具……用作者的话说，这是一个“最自然”的日志工具。SwiftGG 最近在用纯 Swift 编写服务端，或许可以尝试一下，看看到底好用不好用。
+2016 一眨眼又过去了四分之一，眼瞅着今年的 WWDC 又要来了。Swift 完全稳定之后，估计苹果就要逐步淘汰 OC 了，抓紧学习吧。
+[原创] 每周 Swift 社区问答：关于 for-loop 的问题 (@shanks)||http://swift.gg/2016/03/30/swift-qa-2016-03-30/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
+[译] 如何在 Swift 中高效地使用 Method Swizzling (@小铁匠Linus)||http://swift.gg/2016/03/29/effective-method-swizzling-with-swift/||Swift 对 method swizzling 做了很多限制，大多数情况下都不推荐使用。不过对于一些特定需求来说，（至少在现在）我们还是不得不用 method swizzling 来完成。
+[译] Swift 中的位操作 (@Lanford3_3)||http://swift.gg/2016/03/30/Dealing-With-Bit-Sets-In-Swift/||大部分情况下我们不需要自己做位操作，不过多掌握一些知识总是有好处。
+[译] 树莓派2 GPIO 和 SwiftyGPIO (@Crystal Sun)||http://swift.gg/2016/04/01/raspberry-pi-2-gpio-with-swiftygpio/||Swift 第一定律：所有能被 Swift 重写的东西一定会被 Swift 重写。
+[译] 用 Swift 来写命令行程序 (@aaaron7)||http://swift.gg/2016/03/28/command-line-utilities-in-swift/||一篇轻松有趣的入门级文章，用 Swift 写个小程序吧！
+Contributing to Open Source Swift (@Jesse Squires)||https://realm.io/news/tryswift-jesse-squires-contributing-open-source-swift/||在三月初日本的 try!Swift 大会中，来自 Instagram 的工程师 Jesse Squires 介绍了如何参与 Swift 项目。如果你想为 Swift 贡献代码，一定不能错过这个视频。||
+opensource
+Gifu：高性能 GIF 库 (@kaishin)||https://github.com/kaishin/Gifu||Gifu 在内部维护一个 animator，用它跟踪和显示不同的帧。其优势是内存占用少，同一时间只会向内存中加载三帧（当前帧和预加载的两帧），释放之前展示过的内容，从而大幅减少内存占用。
+WKZombie：无头浏览器 (@mkoehnke)||https://github.com/mkoehnke/WKZombie||好吧我承认这个翻译不太优雅，无头就是 headless。Headless 浏览器不需要用户界面或者对应的 API，通常用于自动化测试和数据抓取。
+SwiftyMarkdown：Markdown 解析器 (@SimonFairbairn)||https://github.com/SimonFairbairn/SwiftyMarkdown||可以将 Markdown 转换成 NSAttributedString，使用 dynamic type 来设置字号，是时候替换掉你的 webview 了。
+Charts：图表库 (@danielgindi)||https://github.com/danielgindi/Charts||大而全的图标库，支持缩放、拖拽、坐标轴和图例自定义、动画以及其他功能。作者的目标是开发 iOS 版本的“MPAndroidChart”(一个安卓图表库)。
+cleartext-mac：微博很火的 1000 字编辑器 (@mortenjust)||https://github.com/mortenjust/cleartext-mac||前几天微博很火的编辑器，只能输入最常用的 1000 个英文单词，如果你输入范围外的词会被直接删掉。这个工具并不仅仅是娱乐，对于（用英文写作的）作家、记者、政客来说，写出“绝大部分民众”都能看懂的文章很重要。不过在崇尚文化的我国可能没什么用，我们的不少作家都以“别人看不懂”为荣。
+SwiftyStoreKit：轻量级内购库 (@bizz84)||https://github.com/bizz84/SwiftyStoreKit||支持 iOS 8.0+ 和 OS X 9.0+，如果你的应用要加内购，可以试试这个库。
+SKPhotoBrowser：图片浏览工具 (@suzuki-0000)||https://github.com/suzuki-0000/SKPhotoBrowser||受 Facebook 和 Twitter 启发，作者开发了这个简单的图片浏览工具，支持多种显示模式，支持缓存图片，支持缩放。
+BatteryNotifier：自动提醒你充电 (@Kalvin126)||https://github.com/Kalvin126/BatteryNotifier||是不是经常在出门的时候发现手机没充电？有了这个应用就再也不用担心了，把你的手机和电脑连接到同一个 WiFi，它会自动检测，在电脑上提示你充电。不过我还是习惯拿一个充电宝……||
