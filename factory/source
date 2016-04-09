@@ -1,16 +1,10 @@
-2016 一眨眼又过去了四分之一，眼瞅着今年的 WWDC 又要来了。Swift 完全稳定之后，估计苹果就要逐步淘汰 OC 了，抓紧学习吧。
-[原创] 每周 Swift 社区问答：关于 for-loop 的问题 (@shanks)||http://swift.gg/2016/03/30/swift-qa-2016-03-30/||翻译组的原创文章，每周整理 Stack Overflow 和 Swift 官方论坛中的提问及回答，推荐阅读。
-[译] 如何在 Swift 中高效地使用 Method Swizzling (@小铁匠Linus)||http://swift.gg/2016/03/29/effective-method-swizzling-with-swift/||Swift 对 method swizzling 做了很多限制，大多数情况下都不推荐使用。不过对于一些特定需求来说，（至少在现在）我们还是不得不用 method swizzling 来完成。
-[译] Swift 中的位操作 (@Lanford3_3)||http://swift.gg/2016/03/30/Dealing-With-Bit-Sets-In-Swift/||大部分情况下我们不需要自己做位操作，不过多掌握一些知识总是有好处。
-[译] 树莓派2 GPIO 和 SwiftyGPIO (@Crystal Sun)||http://swift.gg/2016/04/01/raspberry-pi-2-gpio-with-swiftygpio/||Swift 第一定律：所有能被 Swift 重写的东西一定会被 Swift 重写。
-[译] 用 Swift 来写命令行程序 (@aaaron7)||http://swift.gg/2016/03/28/command-line-utilities-in-swift/||一篇轻松有趣的入门级文章，用 Swift 写个小程序吧！
-Contributing to Open Source Swift (@Jesse Squires)||https://realm.io/news/tryswift-jesse-squires-contributing-open-source-swift/||在三月初日本的 try!Swift 大会中，来自 Instagram 的工程师 Jesse Squires 介绍了如何参与 Swift 项目。如果你想为 Swift 贡献代码，一定不能错过这个视频。||
+本周的内容不多，大家可以好好放松一下，准备迎接今年的 WWDC。
+[原创] 每周 Swift 社区问答：@autoclosure (@shanks)||http://swift.gg/2016/04/06/swift-qa-2016-04-06/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
+[译] 回顾 Swift 多平台移植进度 #1 (@Crystal Sun)||http://swift.gg/2016/04/07/recap-of-swift-porting-efforts/||Swift 正在移植到包括 Debain、Windows 和 Android 在内的多个平台，这篇文章介绍了最新的移植进度。
+[译] 回顾 Swift 多平台移植进度 #2 (@Crystal Sun)||http://swift.gg/2016/04/08/recap-of-swift-porting-efforts-2/||接着上一篇，继续介绍移植进度。
+Swift Runtime分析：还像OC Runtime一样吗？ (@尹峥伟)||http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=403153173&idx=1&sn=c631f95b28a0eb4b842a9494e43a30e5#rd||Swift 对 Runtime 机制进行了大幅改动，苹果似乎并不想让开发者在项目中大量使用 Runtime。本文详细介绍了 Swift 中 Runtime 的现状和限制，帮助你更好地了解 Runtime。
+Using types to keep yourself honest (@Matthijs)||http://matthijshollemans.com/2016/03/25/using-types-to-keep-yourself-honest/||作者通过实例讲解如何使用协议和泛型来优化代码，文章不长，练练英语吧。||
 opensource
-Gifu：高性能 GIF 库 (@kaishin)||https://github.com/kaishin/Gifu||Gifu 在内部维护一个 animator，用它跟踪和显示不同的帧。其优势是内存占用少，同一时间只会向内存中加载三帧（当前帧和预加载的两帧），释放之前展示过的内容，从而大幅减少内存占用。
-WKZombie：无头浏览器 (@mkoehnke)||https://github.com/mkoehnke/WKZombie||好吧我承认这个翻译不太优雅，无头就是 headless。Headless 浏览器不需要用户界面或者对应的 API，通常用于自动化测试和数据抓取。
-SwiftyMarkdown：Markdown 解析器 (@SimonFairbairn)||https://github.com/SimonFairbairn/SwiftyMarkdown||可以将 Markdown 转换成 NSAttributedString，使用 dynamic type 来设置字号，是时候替换掉你的 webview 了。
-Charts：图表库 (@danielgindi)||https://github.com/danielgindi/Charts||大而全的图标库，支持缩放、拖拽、坐标轴和图例自定义、动画以及其他功能。作者的目标是开发 iOS 版本的“MPAndroidChart”(一个安卓图表库)。
-cleartext-mac：微博很火的 1000 字编辑器 (@mortenjust)||https://github.com/mortenjust/cleartext-mac||前几天微博很火的编辑器，只能输入最常用的 1000 个英文单词，如果你输入范围外的词会被直接删掉。这个工具并不仅仅是娱乐，对于（用英文写作的）作家、记者、政客来说，写出“绝大部分民众”都能看懂的文章很重要。不过在崇尚文化的我国可能没什么用，我们的不少作家都以“别人看不懂”为荣。
-SwiftyStoreKit：轻量级内购库 (@bizz84)||https://github.com/bizz84/SwiftyStoreKit||支持 iOS 8.0+ 和 OS X 9.0+，如果你的应用要加内购，可以试试这个库。
-SKPhotoBrowser：图片浏览工具 (@suzuki-0000)||https://github.com/suzuki-0000/SKPhotoBrowser||受 Facebook 和 Twitter 启发，作者开发了这个简单的图片浏览工具，支持多种显示模式，支持缓存图片，支持缩放。
-BatteryNotifier：自动提醒你充电 (@Kalvin126)||https://github.com/Kalvin126/BatteryNotifier||是不是经常在出门的时候发现手机没充电？有了这个应用就再也不用担心了，把你的手机和电脑连接到同一个 WiFi，它会自动检测，在电脑上提示你充电。不过我还是习惯拿一个充电宝……||
+SwiftImageProcessing：图片处理教程 (@skyfe79)||https://github.com/skyfe79/SwiftImageProcessing||作者用一系列 playground 演示了如何在 Swift 中操作图片。如果你需要在像素层面操作图片，一定要学习一下。
+SwiftSVG：SVG 解析器 (@mchoe)||https://github.com/mchoe/SwiftSVG||SVG 是一种非常强大的矢量图像标准，使用 SVG 可以大幅减少图片体积，并且可以自由缩放，不会损失清晰度。这个库可以实现高性能 SVG 解析，并且支持多种输入格式。
+SwiftMoment：时间日期操作库 (@akosma)||https://github.com/akosma/SwiftMoment||受 Moment.js 的启发，作者封装了 NSDate 和 NSTimeInterval，可以帮助你轻松计算时间日期。||
