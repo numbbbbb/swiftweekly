@@ -1,14 +1,12 @@
-大新闻！苹果合并了一个 Swift 移植安卓的代码改动，Google 也表示要考虑把 Swift 引入安卓开发，Swift 的春天要来了！
-[原创] 每周 Swift 社区问答：@available 和 #available (@shanks)||http://swift.gg/2016/04/13/swift-qa-2016-04-13/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
-[译] 对比 attempt、try? 和 try! (@星夜暮晨)||http://swift.gg/2016/04/15/swift-my-attempt-code-vs-try-and-try/||try 无法获取错误信息，在实际使用中很不方便。作者自己实现了一个带错误信息的 attempt，最近还对它进行了升级，来学习一下实现思路吧。
-[译] 我是否应该使用生成器(Generator)？ (@Lanford3_3)||http://swift.gg/2016/04/14/should-i-be-using-a-generator-or-not/||什么情况下应该使用生成器？作者在实际项目中遇到了这个问题，经过分析和讨论，最终做出了判断。这篇文章最大的价值不是结论，而是作者思考的过程。
-[译] I 💖 Storyboards & Nibs (@saitjr)||http://swift.gg/2016/04/11/i-heart-storyboards-nibs/||四个高效利用 IB 的小技巧，帮你更好地组织 view。
-[译] iOS9：预览特定的 UITableViewCell 视图 (@Prayer)||http://swift.gg/2016/04/12/peek-pop-view-inside-tableviewcell/||一个简单的 3D Touch 教程，还不会的同学抓紧看，再不看 iOS 10 又要发新功能啦。
-Swift 2 throws 全解析 - 从原理到实践 (@onevcat)||https://onevcat.com/2016/03/swift-throws/||喵神出品。这篇文章从 throws 的内部实现探索了 throws 的一些细节，并为我们带来了在日常开发中使用 Swift 异常机制的一些实践方法。
-Swift Tutorial: Initialization In Depth, Part 1/2 (@René Cacheaux)||https://www.raywenderlich.com/119922/swift-tutorial-initialization-part-1||RayWenderlich 的新文章，深入讲解初始化过程。Swift 的初始化过程并不像看上去那么简单，理解了原理才能更好地使用。||
+今天在上海参加 SwiftCon 2016，今年 Swift 的活动越来越多了，好现象！大家也可以多参与线下活动，和其他开发者互相交流。
+[原创] 每周 Swift 社区问答：@objc (@shanks)||http://swift.gg/2016/04/20/swift-qa-2016-04-20/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
+[译] Swift 中 10 个震惊小伙伴的单行代码 (@bestswifter)||http://swift.gg/2016/04/18/10-Swift-One-Liners-To-Impress-Your-Friends/||十个有趣的单行代码，试着解释一下运行原理吧~
+[译] Swift 运算符重载简介 (@zltunes)||http://swift.gg/2016/04/19/operator-overloading-swift/||运算符重载是一个非常强力的技能，用好了可以极大优化代码。不过运算符重载使用时也有很多注意事项，用不好会让代码更难维护。到底如何做运算符重载？来看看今天这篇 AppCoda 的教程吧。
+[译] 2016 var-vs-let 的停火协定 (@walkingway)||http://swift.gg/2016/04/21/the-great-var-vs-let-war-of-2016-armistice/||Swift 团队发表了一个新声明：从参数列表中移除 var 和 let、在模式匹配中保留 var 和 let、保留 case 模式中的 var。
+iOS 关于navigationBar的一些：毛玻璃、透明、动态缩放、动态隐藏 (@霖溦)||http://www.jianshu.com/p/b2585c37e14b||通过示例来介绍常见的导航栏自定义效果，非常实用。
+Swift Strings (@Andy)||http://andybargh.com/swift-strings/||Chris Lattner 大加赞赏的一篇文章，你需要知道的所有有关 String 的内容，这里都有。||
 opensource
-swift-summary：用代码学文档 (@jakarmy)||https://github.com/jakarmy/swift-summary||我知道你们都不爱看文档，这次福利来了！作者对应 Swift 的文档章节整理了大量 playground，如果你不喜欢看文字，就来看代码吧。
-MetalAcc：GPU 加速图片处理库 (@Jiawei Wang)||https://github.com/wangjwchn/MetalAcc||基于 GPU 加速图片处理，如果你需要高性能的滤镜，一定不要错过它。
-TextAttributes：简化带属性字符串操作 (@delba)||https://github.com/delba/TextAttributes||支持链式操作，支持完成回调，更好用的带属性字符串(attributed string)操作库。
-EasyPeasy：又一个 AutoLayout 库 (@nakiostudio)||https://github.com/nakiostudio/EasyPeasy||语法简洁，支持设备判断，可以给不同的设备应用不同的限制。||
-BCColor：轻量级颜色工具库 (@boycechang)||https://github.com/boycechang/BCColor||支持调整图片颜色，支持从图片提取主题颜色，是个不错的学习项目。||
+JASON：JSON 快速解析 (@delba)||https://github.com/delba/JASON||又又又一个 JSON 解析工具。特点：支持 subscript、使用计算属性做类型转换、Alamofire 扩展。不过这个名字在 SEO 里是大忌啊……很大概率被搜索引擎判断为人名，除此之外，还会被判定为错别字……
+Peek：应用界面验证工具 (@shaps80)||https://github.com/shaps80/peek||非常有趣的一个项目，打开应用，双击两下屏幕，自动显示界面上所有的字体、颜色和布局，可以快速验证界面是否符合设计图。
+SwCrypt：公钥密钥生成器 (@soyersoye)||https://github.com/soyersoyer/SwCrypt||基于 CommonCrypto 开发，支持各种公钥密钥操作，支持加密解密数据。
+AIToolbox：AI 算法大合集 (@KevinCoble)||https://github.com/KevinCoble/AIToolbox||图和树、线性回归、支持向量机、神经网络、PCA、KMeans……你能想到的人工智能算法这里都有！||
