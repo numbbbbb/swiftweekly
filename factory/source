@@ -1,14 +1,12 @@
-五一快乐！放松的同时别忘了继续学习充电！
-[原创] 每周 Swift 社区问答：@noreturn (@shanks)||http://swift.gg/2016/04/27/swift-qa-2016-04-27/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
-[译] 模式匹配第一弹: switch, enums & where 子句 (@walkingway)||http://swift.gg/2016/04/26/pattern-matching-1/||又是一个新系列，我们会同步更新，这一次彻底掌握模式匹配！
-[译] 模式匹配第二弹：元组，range 和类型 (@小锅)||http://swift.gg/2016/04/27/pattern-matching-2/||系列文章第二弹，进一步学习模式匹配的原理。
-[译] 模式匹配第三弹: 自定义的模式匹配和语法糖 (@walkingway)||http://swift.gg/2016/04/28/pattern-matching-3/||系列文章第三弹，让自己的类型也能支持模式匹配。
-[译] 使用 Quick Look Framework 快速预览文档 (@小铁匠Linus)||http://swift.gg/2016/04/29/quick-look-framework/||AppCoda 的新手教程。iOS 中有很多不知名但非常好用的库，Quick Look 就是其中之一。来学学如何让你的应用支持预览文档。
-探索 Swift 中的 MVC-N 模式 (@Marcus)||https://realm.io/cn/news/slug-marcus-zarra-exploring-mvcn-swift/||MVC-N 是对 MVC 模式的扩展，将异步网络调用与控制器隔离，简化控制器。
-The GCD Handbook (@Soroush)||http://khanlou.com/2016/04/the-GCD-handbook/||GCD 的 API 大多是 C 风格，调用起来很别扭。作者在本文中介绍了许多封装方式，帮助你优化 GCD 代码，顺便学习一下如何设计 API。||
+夏天来啦~~烧烤、冰镇啤酒、西瓜、雪糕和刺眼的太阳，生活真是太美好了~
+[原创] 每周 Swift 社区问答：@NSApplicationMain 和 @UIApplicationMain (@shanks)||http://swift.gg/2016/05/04/swift-qa-2016-05-04/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
+[译] 准备好迎接 3.0 API 变化 (@zltunes)||http://swift.gg/2016/05/03/preparing-for-3-0-api-pruning/||Swift 3.0 API 命名方式会大改，作者总结了几条改动规则，帮助你更好地“重新入门 Swift”。
+[译] GCD 使用指南 (@walkingway)||http://swift.gg/2016/05/05/the-gcd-handbook/||深入浅出 GCD，看完就能直接实践，GCD 没你想得那么难。
+[译] 度量单位 (@Prayer)||http://swift.gg/2016/05/06/units/||代码中出现大量数字的时候如何明确数字的含义？是时间、金额还是其他？来看看作者如何把数字的含义巧妙地加入代码。
+去model化和数据对象 (@Casa Taloyum)||http://casatwy.com/OOP_nomodel.html||项目中有 model 层是非常常见的设计，但是引入 model 会给代码引入新的依赖，有时我们并不想要这样的副作用。如何去 model？作者给出了几种方式。
+Scripting in Swift (@Sam)||https://www.shinobicontrols.com/blog/scripting-in-swift||作为一个一统宇宙的语言，写脚本显然是必备特性。本文教你如何写一个 Swift 脚本，从多个 markdown 文件读入数字，渲染成 HTML，并输出到一个文件中。||
 opensource
-Hexacon：把 Apple Watch 界面搬到手机上 (@Gautier)||https://github.com/gautier-gdx/Hexacon||在手机上用多边形展示数据，类似 Apple Watch，不过看起来……真的有点密集……
-Smile-Lock：模拟 iOS 解锁界面 (@Rain)||https://github.com/liu044100/Smile-Lock||如果你想模拟 iOS 解锁时输密码的界面，这个库就是你想要的，连输错密码时的抖动效果都有，很有趣。
-Threader：更适合 Swift 的 GCD 封装 (@Mitch)||https://github.com/mitchtreece/Threader||上面的英文文章介绍了如何改进 GCD API，这里给出一个项目供参考。可以对比一下项目和文章的差异，多思考，学到真正的技术。
-SwiftyXMLParser：XML 解析器 (@Yahoo!)||https://github.com/yahoojapan/SwiftyXMLParser||雅虎日本的工程师开源了这个项目，亮点是可以使用 for-in、map 和 filter。
-Cuckoo：测试用 mock 框架 (@SwiftKit)||https://github.com/SwiftKit/Cuckoo||Cuckoo 会在编译时按照你的指令给目标文件插入结构体和类，从而在运行时实现 mock 功能。做测试的同学可以试试这个框架。||
+StateView：根据数据自动更新 View (@Sahand)||https://github.com/sahandnayebaziz/StateView||有点 MVVM 中 binding 的意思，也有点 React 中 diff 算法的意思。数据改动之后计算需要变更的 UI 元素，然后改动 View，很有意思。
+Screenotate：自动标注你的屏幕截图 (@Omar)||https://github.com/osnr/Screenotate||Mac 的截图文件名中只有日期时间，要找东西很不方便。这个库可以检测截图时所处的应用或者网页，把一些重要的信息加入到文件名中，帮你快速找到想要的截图。
+GRDB.swift：多功能 SQLite 工具库 (@Gwendal)||https://github.com/groue/GRDB.swift||最大的亮点是：可以像操作普通对象一样操作数据库中的行。
+Interpolate：给手势加上动画 (@Roy)||https://github.com/marmelroy/Interpolate||给各种手势加上默认的动画效果，当然，你也可以自定义你想要的动画。||
