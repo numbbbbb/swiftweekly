@@ -1,12 +1,12 @@
-夏天来啦~~烧烤、冰镇啤酒、西瓜、雪糕和刺眼的太阳，生活真是太美好了~
-[原创] 每周 Swift 社区问答：@NSApplicationMain 和 @UIApplicationMain (@shanks)||http://swift.gg/2016/05/04/swift-qa-2016-05-04/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
-[译] 准备好迎接 3.0 API 变化 (@zltunes)||http://swift.gg/2016/05/03/preparing-for-3-0-api-pruning/||Swift 3.0 API 命名方式会大改，作者总结了几条改动规则，帮助你更好地“重新入门 Swift”。
-[译] GCD 使用指南 (@walkingway)||http://swift.gg/2016/05/05/the-gcd-handbook/||深入浅出 GCD，看完就能直接实践，GCD 没你想得那么难。
-[译] 度量单位 (@Prayer)||http://swift.gg/2016/05/06/units/||代码中出现大量数字的时候如何明确数字的含义？是时间、金额还是其他？来看看作者如何把数字的含义巧妙地加入代码。
-去model化和数据对象 (@Casa Taloyum)||http://casatwy.com/OOP_nomodel.html||项目中有 model 层是非常常见的设计，但是引入 model 会给代码引入新的依赖，有时我们并不想要这样的副作用。如何去 model？作者给出了几种方式。
-Scripting in Swift (@Sam)||https://www.shinobicontrols.com/blog/scripting-in-swift||作为一个一统宇宙的语言，写脚本显然是必备特性。本文教你如何写一个 Swift 脚本，从多个 markdown 文件读入数字，渲染成 HTML，并输出到一个文件中。||
+盼望着，盼望着，Swift 3.0 预览版来了，WWDC 的脚步近了。根据苹果<a target="_blank" style="font-size:14px;line-height:22px;font-weight:bold;text-decoration:none;color:#259;border:none;outline:none" href="https://swift.org/blog/swift-3-0-release-process/">Swift 官方网站</a>的信息，Swift 3.0 第一个开发者预览版分支 swift-3.0-preview-1-branch 已在 5.12 创建，对应的代码会在 4-6 周内发布。感兴趣的同学可以准备尝尝鲜了。
+[原创] 每周 Swift 社区问答：@NSCopying (@shanks)||http://swift.gg/2016/05/11/swift-qa-2016-05-11/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
+[译] Friday Q&A 2016-03-04：Swift 断言 (@zltunes)||http://swift.gg/2016/05/11/friday-qa-2016-03-04-swift-asserts/||又是经典的周五问答系列，这次讲的是断言。如果你不喜欢写测试，那就来写断言吧。
+[译] Firebase 新手指南：使用 Swift 构建一款简单的社交应用 (@CoderAFI)||http://swift.gg/2016/05/12/introduction-to-firebase-building-a-simple-social-app-in-swift/||Firebase 是 Google 推出的一个 BaaS 服务，其前竞争者就是前不久倒掉的 Parse。本文介绍了如何使用 Firebase 开发一款完整的应用，来看看它有什么过人之处吧。
+[译] 用 HealthKit 来开发一个健身 App (@Crystal Sun)||http://swift.gg/2016/05/13/healthkit-introduction/||最近健身类应用非常火爆，如果你也想做一个来玩，那一定不要错过这篇文章。
+别人的 App 不好用？自己改了便是。 (@txx)||http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&mid=2650948334&idx=1&sn=941d616d25ed16d967595e652e6c4d3b&scene=23&srcid=0513bLUkmrBezKV4kkTvIJJj#rd||虾神教你破解 Mac 应用，未成年请在父母陪同下阅读。
+Swift Guide to Map Filter Reduce (@UseYourLoaf)||http://useyourloaf.com/blog/swift-guide-to-map-filter-reduce||本周的英文文章，介绍 map、filter 和 reduce。这类的文章真的太多了，这大概是最后一篇，如果你还没有掌握，那真的要抓紧看了。||
 opensource
-StateView：根据数据自动更新 View (@Sahand)||https://github.com/sahandnayebaziz/StateView||有点 MVVM 中 binding 的意思，也有点 React 中 diff 算法的意思。数据改动之后计算需要变更的 UI 元素，然后改动 View，很有意思。
-Screenotate：自动标注你的屏幕截图 (@Omar)||https://github.com/osnr/Screenotate||Mac 的截图文件名中只有日期时间，要找东西很不方便。这个库可以检测截图时所处的应用或者网页，把一些重要的信息加入到文件名中，帮你快速找到想要的截图。
-GRDB.swift：多功能 SQLite 工具库 (@Gwendal)||https://github.com/groue/GRDB.swift||最大的亮点是：可以像操作普通对象一样操作数据库中的行。
-Interpolate：给手势加上动画 (@Roy)||https://github.com/marmelroy/Interpolate||给各种手势加上默认的动画效果，当然，你也可以自定义你想要的动画。||
+Markingbird：Markdown 解析器 (@Kristopher)||https://github.com/kristopherjohnson/Markingbird||这个项目翻译自 MarkdownSharp，后者是 Stack Overflow 使用的 Markdown 解析器。Markingbird 这个单词是模仿 Mockingbird，看过饥饿游戏的同学对这个词一定不陌生。
+SwiftyOAuth：OAuth 库 (@Damien)||https://github.com/delba/SwiftyOAuth||一个小巧的 OAuth 库，内置了几个常见的第三方服务，包括 GitHub 和 Dribbble。
+Networking：超简洁网络库 (@Elvis)||https://github.com/3lvis/Networking||只做了最基本的封装，没有一行多余代码，推荐阅读源码学习。
+SwiftOCR：图像识别库 (@Nicolas)||https://github.com/garnele007/SwiftOCR||性能是最大亮点，针对单行字母数字文本做了优化，可以用来做屏幕取词这样的功能。||
