@@ -1,12 +1,13 @@
-盼望着，盼望着，Swift 3.0 预览版来了，WWDC 的脚步近了。根据苹果<a target="_blank" style="font-size:14px;line-height:22px;font-weight:bold;text-decoration:none;color:#259;border:none;outline:none" href="https://swift.org/blog/swift-3-0-release-process/">Swift 官方网站</a>的信息，Swift 3.0 第一个开发者预览版分支 swift-3.0-preview-1-branch 已在 5.12 创建，对应的代码会在 4-6 周内发布。感兴趣的同学可以准备尝尝鲜了。
-[原创] 每周 Swift 社区问答：@NSCopying (@shanks)||http://swift.gg/2016/05/11/swift-qa-2016-05-11/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
-[译] Friday Q&A 2016-03-04：Swift 断言 (@zltunes)||http://swift.gg/2016/05/11/friday-qa-2016-03-04-swift-asserts/||又是经典的周五问答系列，这次讲的是断言。如果你不喜欢写测试，那就来写断言吧。
-[译] Firebase 新手指南：使用 Swift 构建一款简单的社交应用 (@CoderAFI)||http://swift.gg/2016/05/12/introduction-to-firebase-building-a-simple-social-app-in-swift/||Firebase 是 Google 推出的一个 BaaS 服务，其前竞争者就是前不久倒掉的 Parse。本文介绍了如何使用 Firebase 开发一款完整的应用，来看看它有什么过人之处吧。
-[译] 用 HealthKit 来开发一个健身 App (@Crystal Sun)||http://swift.gg/2016/05/13/healthkit-introduction/||最近健身类应用非常火爆，如果你也想做一个来玩，那一定不要错过这篇文章。
-别人的 App 不好用？自己改了便是。 (@txx)||http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&mid=2650948334&idx=1&sn=941d616d25ed16d967595e652e6c4d3b&scene=23&srcid=0513bLUkmrBezKV4kkTvIJJj#rd||虾神教你破解 Mac 应用，未成年请在父母陪同下阅读。
-Swift Guide to Map Filter Reduce (@UseYourLoaf)||http://useyourloaf.com/blog/swift-guide-to-map-filter-reduce||本周的英文文章，介绍 map、filter 和 reduce。这类的文章真的太多了，这大概是最后一篇，如果你还没有掌握，那真的要抓紧看了。||
+最近的大新闻就是苹果 10 亿投资滴滴。最近几个月其实有不少 iOS 大牛都去了滴滴，感觉滴滴目前真的是势不可挡。据我所知滴滴在 iOS 这边的技术实力确实很强，或许这是吸引大牛的一大原因。
+[原创] 每周 Swift 社区问答：@convention (@shanks)||http://swift.gg/2016/05/18/swift-qa-2016-05-18/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
+[译] “错误”的使用 Swift 中的 Extension (@bestswifter)||http://swift.gg/2016/05/16/using-swift-extensions/||用好一门语言的关键就是“用对”。语法永远不难学，难的是知道什么时候用、如何用。今天这篇文章正是教你如何用对 Extension。
+[译] 用 SwiftyDB 管理 SQLite 数据库 (@Crystal Sun)||http://swift.gg/2016/05/17/swiftydb/||SwiftyDB 是一个第三方 SQLite 工具，能够大大简化数据库操作。如果你不放心 Realm，那就用 SwiftyDB 吧。
+[译] Swift API 设计指南 (@Changkun Ou)||http://swift.gg/2016/05/18/api-design-guidelines/||SwiftGG 接受的第一篇投稿，翻译了 RayWenderlich 的 Swift API 设计指南，推荐阅读，设计出更加优质的 API。
+[译] iOS：关于 SwiftWatch (@pucca601)||http://swift.gg/2016/05/20/swiftwatch/||Swift 相关的网站和信息越来越多，如何高效阅读？作者开发了一款 Mac 应用，整合所有高质量的 Swift 网站，帮你更快掌握最新的 Swift 信息。
+用 ReactiveCocoa 事半功倍的写代码（一）(@FengJian)||http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/||这篇文章有两个两点，一是非常完整，有大量扩展阅读内容，帮助你系统学习 ReactiveCocoa；二是带有大量 Demo，告诉你到底该如何使用它。
+What's new in Swift 3.0 (@Paul)||https://www.hackingwithswift.com/swift3||本周的英文文章，介绍 Swift 3.0 的新特性，先睹为快。||
 opensource
-Markingbird：Markdown 解析器 (@Kristopher)||https://github.com/kristopherjohnson/Markingbird||这个项目翻译自 MarkdownSharp，后者是 Stack Overflow 使用的 Markdown 解析器。Markingbird 这个单词是模仿 Mockingbird，看过饥饿游戏的同学对这个词一定不陌生。
-SwiftyOAuth：OAuth 库 (@Damien)||https://github.com/delba/SwiftyOAuth||一个小巧的 OAuth 库，内置了几个常见的第三方服务，包括 GitHub 和 Dribbble。
-Networking：超简洁网络库 (@Elvis)||https://github.com/3lvis/Networking||只做了最基本的封装，没有一行多余代码，推荐阅读源码学习。
-SwiftOCR：图像识别库 (@Nicolas)||https://github.com/garnele007/SwiftOCR||性能是最大亮点，针对单行字母数字文本做了优化，可以用来做屏幕取词这样的功能。||
+FlatBuffersSwift：高效跨平台序列化库 (@Maxim)||https://github.com/mzaks/FlatBuffersSwift||FlatBuffers 是 Google 推出的一个跨平台高性能序列化库，这个项目开发了一个 Swift 的接口，可以在 Swift 中使用 FlatBuffers。
+swift-pons：面向协议的数字系统 (@Dan)||https://github.com/dankogai/swift-pons||如果你需要对数字做大量复杂操作，那推荐使用这个库，其中对数字做了大量扩展协议，可以方便地实现很多功能。
+PrediKit：NSPredicate 的 DSL (@Hector)||https://github.com/KrakenDev/PrediKit||用字符串来实现 NSPredicate 有很多隐患，也很不方便。这个库开发了一个 DSL（领域特定语言），帮助你编写 NSPredicate。
+BuildTimeAnalyzer-for-Xcode：编译时分析器/优化器 (@Robert)||https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode||如果你想知道每个函数的编译时间，可以使用这个工具。如果你有兴趣可以深入研究一下实现原理，相信会有很多收获。||
