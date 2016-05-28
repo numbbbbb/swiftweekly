@@ -1,13 +1,12 @@
-最近的大新闻就是苹果 10 亿投资滴滴。最近几个月其实有不少 iOS 大牛都去了滴滴，感觉滴滴目前真的是势不可挡。据我所知滴滴在 iOS 这边的技术实力确实很强，或许这是吸引大牛的一大原因。
-[原创] 每周 Swift 社区问答：@convention (@shanks)||http://swift.gg/2016/05/18/swift-qa-2016-05-18/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
-[译] “错误”的使用 Swift 中的 Extension (@bestswifter)||http://swift.gg/2016/05/16/using-swift-extensions/||用好一门语言的关键就是“用对”。语法永远不难学，难的是知道什么时候用、如何用。今天这篇文章正是教你如何用对 Extension。
-[译] 用 SwiftyDB 管理 SQLite 数据库 (@Crystal Sun)||http://swift.gg/2016/05/17/swiftydb/||SwiftyDB 是一个第三方 SQLite 工具，能够大大简化数据库操作。如果你不放心 Realm，那就用 SwiftyDB 吧。
-[译] Swift API 设计指南 (@Changkun Ou)||http://swift.gg/2016/05/18/api-design-guidelines/||SwiftGG 接受的第一篇投稿，翻译了 RayWenderlich 的 Swift API 设计指南，推荐阅读，设计出更加优质的 API。
-[译] iOS：关于 SwiftWatch (@pucca601)||http://swift.gg/2016/05/20/swiftwatch/||Swift 相关的网站和信息越来越多，如何高效阅读？作者开发了一款 Mac 应用，整合所有高质量的 Swift 网站，帮你更快掌握最新的 Swift 信息。
-用 ReactiveCocoa 事半功倍的写代码（一）(@FengJian)||http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/||这篇文章有两个两点，一是非常完整，有大量扩展阅读内容，帮助你系统学习 ReactiveCocoa；二是带有大量 Demo，告诉你到底该如何使用它。
-What's new in Swift 3.0 (@Paul)||https://www.hackingwithswift.com/swift3||本周的英文文章，介绍 Swift 3.0 的新特性，先睹为快。||
+Swift 3.0 最新消息，ABI(应用二进制接口) 无法实现稳定，这意味着旧版本的 Swift 二进制程序无法在 Swift 3.0 中运行。算是个小打击，不过不影响开发者对 Swift 的信心。 
+[原创] Swift Evolution 系列开篇：简介 (@shanks)||http://swift.gg/2016/05/25/swift-evolution-2016-05-25/||翻译组的原创文章，每周一个主题，收录相关的经典问题和解决方法，推荐阅读。
+[译] Swift 中的尾递归和蹦床 (@aaaron7)||http://swift.gg/2016/05/27/recursive-tail-calls-and-trampolines-in-swift/||Swift 中到底有没有“尾递归”？如何手动实现“尾递归”？今天这篇文章干货满满，有深度，不难读，强烈推荐。
+[译] MVVM 不是那么好 (@zltunes)||http://swift.gg/2016/05/26/mvvm-is-not-very-good/||MVVM 很火，这次来听听不同的声音。
+[译] Apple Watch 一年有感 (@saitjr)||http://swift.gg/2016/05/24/apple-watch-thoughts/||一个开发者的 Apple Watch 使用体验，翻译完之后，译者@saitjr 表示不想买了。
+[译] [2016 版] 常见操作性能对比 (@Yake)||http://swift.gg/2016/05/25/friday-qa-2016-04-15-performance-comparisons-of-common-operations-2016-edition/||作者对 iOS 开发常用的操作进行了性能测试，从中可以得出许多有用的结论，写出更加高效的程序。
+Pod 预编译，减少不必要的生命浪费 (@txx)||http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&mid=2650948341&idx=1&sn=bf12097fe33d3bb553fab040a394eab6&scene=23&srcid=0528wdyi1BgWl45FynE1M7ka#rd||Swift 编译速度经常被人诟病，项目大了之后经常要等好久，严重影响编程效率。在这篇文章中虾神介绍了一种解决方案：用 Pod 预编译来减少需要编译的文件，目前国内很多大型项目都采用了这种方法，可以参考。
+URL Pattern Matching (@johnpatrickmorgan)||http://johnpatrickmorgan.github.io/2016/05/11/URLPatternMatching/||本周的英文文章，介绍了四种 URL 的匹配方法，可以对比学习一下，重在思想	。||
 opensource
-FlatBuffersSwift：高效跨平台序列化库 (@Maxim)||https://github.com/mzaks/FlatBuffersSwift||FlatBuffers 是 Google 推出的一个跨平台高性能序列化库，这个项目开发了一个 Swift 的接口，可以在 Swift 中使用 FlatBuffers。
-swift-pons：面向协议的数字系统 (@Dan)||https://github.com/dankogai/swift-pons||如果你需要对数字做大量复杂操作，那推荐使用这个库，其中对数字做了大量扩展协议，可以方便地实现很多功能。
-PrediKit：NSPredicate 的 DSL (@Hector)||https://github.com/KrakenDev/PrediKit||用字符串来实现 NSPredicate 有很多隐患，也很不方便。这个库开发了一个 DSL（领域特定语言），帮助你编写 NSPredicate。
-BuildTimeAnalyzer-for-Xcode：编译时分析器/优化器 (@Robert)||https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode||如果你想知道每个函数的编译时间，可以使用这个工具。如果你有兴趣可以深入研究一下实现原理，相信会有很多收获。||
+Track：线程安全缓存 (@maquannene)||https://github.com/maquannene/Track||使用 LRU 算法实现的线程安全缓存，支持硬盘缓存和内存缓存，并且不会死锁。
+JLRoutes：iOS 和 OS X 路由库 (@Joel)||https://github.com/joeldev/JLRoutes||基于 block 的 URL 路由 API，专门用于处理复杂的应用 URL 路由，你再也不用手动解析字符串了。
+Regex：Swift 正则库 (@crossroadlabs)||https://github.com/crossroadlabs/Regex||在基础的正则匹配上增加了很多功能，比如成组、使用自定义函数进行替换、分割字符串等等，看起来还是很强大的。||
