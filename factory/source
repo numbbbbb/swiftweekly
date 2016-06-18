@@ -1,12 +1,15 @@
-最近 Swift 圈似乎没什么大事，说点别的吧。首先 6.5 京东全场自营图书 200-100，需要买书的同学可以关注下。其次，沪江最近做了一个 <a style="color:#07c;text-decoration:none" href="https://swift.org/documentation/#the-swift-programming-language" target="_blank">沪江校园极客SHOW</a>，其实就是个黑客马拉松，7.9-10 在上海，奖金丰厚，有兴趣的同学可以去挑战下。
-[译] Swift：Selector 语法糖 (@saitjr)||http://swift.gg/2016/06/02/swift-selector-syntax-sugar/||这篇来头很大，Chris Lattner 亲自转发推荐，就冲这个也必须读一读了。
-[译] 用 Swift 编写面向协议的视图 (@Lanford3_3)||http://swift.gg/2016/06/01/protocol-oriented-views-in-swift/||每个程序员身边都有一个爱改需求的产品。如何应对？面向协议或许可以帮到你，看看 Natasha the Robot 是怎么做的。
-[译] 用 Swift 编写面向协议的网络请求 (@saitjr)||http://swift.gg/2016/06/03/protocol-oriented-networking-in-swift/||和上一篇是同一个作者，连续两篇面向协议实战，看完就能上手。
-从ReactiveCocoa中能学到什么？不用此库也能学以致用 (@戴铭)||http://www.jianshu.com/p/39e27fef38fa||RAC 和 RxSwift 都有一定的上手难度，但项目背后的思想其实并没有那么复杂。这篇出自 iOS 圈画画最好的男人，看文章的同时也能欣赏一下插图。
-Working with very large numbers in Swift - BigInt (@beaunouvelle)||https://beaunouvelle.com/large-numbers-with-swift-big-int/||本周的英文文章，介绍如何使用字符串来实现超大整数的操作。||
+WWDC 结束了，苹果更新了很多软件内容，感觉培训行业又要火一波了。大家学到新技术之后一定要多多实践，其实很多东西写着写着就明白了，唯手熟尔。沪江最近做了一个 <a style="color:#07c;text-decoration:none" href="http://inside.hujiang.com/hackathon" target="_blank">沪江校园极客SHOW</a>，其实就是个黑客马拉松，7.9-10 在上海，奖金丰厚，有兴趣的同学可以去挑战下。
+[译] WWDC 观后感 (@小铁匠Linus)||http://swift.gg/2016/06/14/wwdc-thoughts/||看了一大堆国内媒体和开发者的感想，也来了解了解美国开发者怎么看 WWDC。
+[译] Friday Q&A 2016-01-29: Swift 的结构体存储 (@ray16897188)||http://swift.gg/2016/06/08/friday-qa-2016-01-29-swift-struct-storage/||周五问答系列一向非常有深度，这次讲解的是结构体在内存中的存储和操作方式，帮助你更好地使用它。
+[译] Swift 傻瓜技巧：自定义枚举的映射关系 (@Lanford3_3)||http://swift.gg/2016/06/13/stupid-swift-tricks-5-enums/||有些时候你不想用数字来表示枚举值，也不想把字符串写死在枚举声明中，那该如何实现枚举的动态映射呢？来看看这篇文章吧。
+[译] 在 Xcode 中使用 Markdown 生成 Swift 代码文档 (@小铁匠Linus)||http://swift.gg/2016/06/15/swift-markdown/||Appcoda 的长文，详细介绍了 Xcode 的代码注释功能，用 Markdown 直接写文档，这才是程序员的方式。
+iOS 启动连续闪退保护方案 (@微信读书)||http://wereadteam.github.io/2016/05/23/GYBootingProtection/||微信读书团队出品的文章，探讨了连续闪退问题的产生原因、检测、修复机制，以及如何在你的项目中引入、测试和使用 GYBootingProtection。
+Creating and Distributing iOS Frameworks (@Michael Katz)||https://www.raywenderlich.com/126365/ios-frameworks-tutorial||本周的英文文章，介绍如何将代码封装成框架并发布到 CocoaPods。||
 opensource
-MissionControl-iOS：远程配置库 (@Marko)||https://github.com/appculture/MissionControl-iOS||应用大了就会有各种功能，在目前苹果的审核机制下要想实现实时改动功能就必须从服务器端下发配置。这个库封装了各种远程配置常见的操作，可以在获取配置之后通知变动的配置项，还配有一个非常可爱的火箭发射 Demo。
-Stellar：物理动画库 (@August)||https://github.com/AugustRush/Stellar||简化 UIKit Dynamics 的操作，轻松实现各种动画效果。
-Clipy：OS X 剪切板管理库 (@Clipy)||https://github.com/Clipy/Clipy||这个项目最大的亮点是 Swift OC 混编，包含各种复杂的剪切板操作，可以学习一下如何优雅地混编代码。
-JSONExport：JSON 对象导出工具 (@Ahmed-Ali)||https://github.com/Ahmed-Ali/JSONExport||OS X 的应用，可以把 JSON 导出成不同语言中的数据结构和类，比如 Java、Swift 中的类、Swift 中的结构体，可以用来转换 API 数据，转换完毕直接使用。
-Scrollable-GraphView：炫酷图表 (@philackm)||https://github.com/philackm/Scrollable-GraphView||图表视图，自带动画，支持滚动，非常适合展示一系列数据点。||
+Caishen：轻松实现支付功能 (@prolificinteractive)||https://github.com/prolificinteractive/Caishen||纯 Swift 编写的支付库，功能和 PaymentKit 类似。除了基础的支付信息验证之外还集成了一些第三方框架，比如 CardIO，帮你轻松实现支付功能。
+Cleanse：依赖注入框架 (@square)||https://github.com/square/Cleanse||轻量级依赖注入框架，把开发体验放在第一位，设计思路参考了 Dagger 和 Guice。
+tween-controller：创建交互式菜单和使用指南 (@daltonclaybrook)||https://github.com/daltonclaybrook/tween-controller||绝大部分应用都需要在第一次打开时显示一组使用指南或者产品介绍，为了简单，这种界面一般是静态内容。有了这个库，你就不需要再做妥协了，可以加入各种交互式动态效果，让界面更加炫酷。
+PinpointKit：用户反馈插件 (@Lickability)||https://github.com/Lickability/PinpointKit||可以自动生成带标注的截图，和日志一起打包好发送给开发者，帮助开发者更好地定位程序中的问题。
+swim：构建系统 (@kylef)||https://github.com/kylef/swim||SPM（Swift Package Manager）虽然是官方出品，但是目前来说还有很多不完善的地方，比如无法使用第三方测试库，也无法轻松切换 Swift 版本，因此作者开发了 swim，来实现简单的构建操作。
+socket.io-client-swift：Socket.IO 客户端 (@socketio)||https://github.com/socketio/socket.io-client-swift||Socket.IO 可以提供实时、双向的基于事件的通信，这是 Socket.IO 官方出品的客户端，可以用在 iOS 和 macOS 上。
+MGEDateFormatter：日期和字符串双向转换 (@ManueGE)||https://github.com/ManueGE/MGEDateFormatter/||纯 Swift 实现的 NSDate 和 NSString 双向转换工具，便于存储和传输日期数据||
