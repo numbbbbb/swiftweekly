@@ -1,15 +1,16 @@
-WWDC 结束了，苹果更新了很多软件内容，感觉培训行业又要火一波了。大家学到新技术之后一定要多多实践，其实很多东西写着写着就明白了，唯手熟尔。沪江最近做了一个 <a style="color:#07c;text-decoration:none" href="http://inside.hujiang.com/hackathon" target="_blank">沪江校园极客SHOW</a>，其实就是个黑客马拉松，7.9-10 在上海，奖金丰厚，有兴趣的同学可以去挑战下。
-[译] WWDC 观后感 (@小铁匠Linus)||http://swift.gg/2016/06/14/wwdc-thoughts/||看了一大堆国内媒体和开发者的感想，也来了解了解美国开发者怎么看 WWDC。
-[译] Friday Q&A 2016-01-29: Swift 的结构体存储 (@ray16897188)||http://swift.gg/2016/06/08/friday-qa-2016-01-29-swift-struct-storage/||周五问答系列一向非常有深度，这次讲解的是结构体在内存中的存储和操作方式，帮助你更好地使用它。
-[译] Swift 傻瓜技巧：自定义枚举的映射关系 (@Lanford3_3)||http://swift.gg/2016/06/13/stupid-swift-tricks-5-enums/||有些时候你不想用数字来表示枚举值，也不想把字符串写死在枚举声明中，那该如何实现枚举的动态映射呢？来看看这篇文章吧。
-[译] 在 Xcode 中使用 Markdown 生成 Swift 代码文档 (@小铁匠Linus)||http://swift.gg/2016/06/15/swift-markdown/||Appcoda 的长文，详细介绍了 Xcode 的代码注释功能，用 Markdown 直接写文档，这才是程序员的方式。
-iOS 启动连续闪退保护方案 (@微信读书)||http://wereadteam.github.io/2016/05/23/GYBootingProtection/||微信读书团队出品的文章，探讨了连续闪退问题的产生原因、检测、修复机制，以及如何在你的项目中引入、测试和使用 GYBootingProtection。
-Creating and Distributing iOS Frameworks (@Michael Katz)||https://www.raywenderlich.com/126365/ios-frameworks-tutorial||本周的英文文章，介绍如何将代码封装成框架并发布到 CocoaPods。||
+昨天和前天去参加了 InfoQ 主办的 GMTC，收获颇丰。现在的各种交流活动真心多，大家周末也别在家窝着了，多参加参加活动吧。
+[译] Swift 范的 CGRect、CGSize 和 CGPoint (@saitjr)||http://swift.gg/2016/06/16/swift-cgrect-cgsize-cgpoint/||这三个是日常开发中非常常见的结构体，如何用 Swift 的方式使用它们？来学习下这篇文字。
+[译] SE-0005 更好的把 Objective-C APIs 转换成 Swift 版本 (@boxue)||http://swift.gg/2016/06/20/SE-0005-better-translation-of-objective-c-api-into-swift/||这是一篇投稿翻译。Swift 3.0 会对 OC 的 API 重新命名，根据苹果官方的描述，你也可以把你自己的 OC API 转换成 Swift 版本。
+[译] 初学者应该先学什么：TDD、Swift 还是函数式？ (@小锅)||http://swift.gg/2016/06/22/what-to-learn-first/||作者收到一个新人提问，借此机会讲了讲他推荐的新人学习路线。
+[译] 今年 WWDC 大会有哪些新技术？ (@Crystal Sun)||http://swift.gg/2016/06/24/ios-10-api-diff/||WWDC 结束一周了，大量的 session 视频都已经发布。全部看完是不现实的，如何取舍？可以参考这篇文章，只看你最感兴趣的内容。
+开发者所需要知道的 iOS 10 SDK 新特性 (@onevcat)||https://onevcat.com/2016/06/ios-10-sdk/||喵神新文章，详细介绍了 iOS 10 的新特性。
+How to Be Polite (@Paul Ford)||https://medium.com/message/how-to-be-polite-9bf1e69e888c||本周的英文文章，不过这次不是技术文章，而是一碗外国火鸡汤。每个人都想和其他人好好相处，但是这种能力并不是与生俱来的，有时候我们会在无意中做错事。如何做一个有礼貌的人？作者讲述了自己的故事，希望给你一些启发。||
 opensource
-Caishen：轻松实现支付功能 (@prolificinteractive)||https://github.com/prolificinteractive/Caishen||纯 Swift 编写的支付库，功能和 PaymentKit 类似。除了基础的支付信息验证之外还集成了一些第三方框架，比如 CardIO，帮你轻松实现支付功能。
-Cleanse：依赖注入框架 (@square)||https://github.com/square/Cleanse||轻量级依赖注入框架，把开发体验放在第一位，设计思路参考了 Dagger 和 Guice。
-tween-controller：创建交互式菜单和使用指南 (@daltonclaybrook)||https://github.com/daltonclaybrook/tween-controller||绝大部分应用都需要在第一次打开时显示一组使用指南或者产品介绍，为了简单，这种界面一般是静态内容。有了这个库，你就不需要再做妥协了，可以加入各种交互式动态效果，让界面更加炫酷。
-PinpointKit：用户反馈插件 (@Lickability)||https://github.com/Lickability/PinpointKit||可以自动生成带标注的截图，和日志一起打包好发送给开发者，帮助开发者更好地定位程序中的问题。
-swim：构建系统 (@kylef)||https://github.com/kylef/swim||SPM（Swift Package Manager）虽然是官方出品，但是目前来说还有很多不完善的地方，比如无法使用第三方测试库，也无法轻松切换 Swift 版本，因此作者开发了 swim，来实现简单的构建操作。
-socket.io-client-swift：Socket.IO 客户端 (@socketio)||https://github.com/socketio/socket.io-client-swift||Socket.IO 可以提供实时、双向的基于事件的通信，这是 Socket.IO 官方出品的客户端，可以用在 iOS 和 macOS 上。
-MGEDateFormatter：日期和字符串双向转换 (@ManueGE)||https://github.com/ManueGE/MGEDateFormatter/||纯 Swift 实现的 NSDate 和 NSString 双向转换工具，便于存储和传输日期数据||
+fog-machine：多设备并行框架 (@ngageoint)||https://github.com/ngageoint/fog-machine||一个研究性项目，试图利用多台 iOS 设备实现并行功能，很有意思，哪怕你用不到也可以了解一下。
+Iconic：矢量图标库 (@dzenbot)||https://github.com/dzenbot/Iconic||作者把 web 开发中的 Icon Font 概念引入了 Swift，可以快速生成矢量图标。
+SwiftLinkPreview：生成 URL 预览 (@LeonardoCardoso)||https://github.com/LeonardoCardoso/SwiftLinkPreview||有时候我们不想展示全部页面，只想显示一个预览，那就可以使用这个库来实现。它会从 URL 生成一个字典内容，你可以根据自己的喜好显示不同内容，比如图片、标题、文本等等。
+Graphs：图表生成工具 (@recruit-mtl)||https://github.com/recruit-mtl/Graphs||假设你正在写 Keynote，需要插入一张图表，怎么办？现在你可以使用 Swift 了，直接在 playground 中生成图表，截图粘贴过去即可。
+DropDown：Material Design 下拉菜单 (@AssistoLab)||https://github.com/AssistoLab/DropDown||一个符合 Material Design 的下拉菜单，支持自定义，可以实现输入+选择这种组合控件。
+moa：图片下载库 (@evgenyneu)||https://github.com/evgenyneu/moa||兼容全平台，你只需要指定一个图片 URL，这个库会自动进行异步下载并显示图片。
+Dollar：全能工具库 (@ankurp)||https://github.com/ankurp/Dollar||类似 JS 的 Lo-Dash 和 Underscore.js，集成了许多常用的工具函数，比如检查元素是否在数组中、多次循环遍历数组等等。
+Kanna：XML/HTML 解析器 (@tid-kijyun)||https://github.com/tid-kijyun/Kanna||类似 Python 的 BeautifulSoup，可以解析 XML/HTML 字符串，然后对解析后的结果做一些操作，比如搜索、查找、修改等等。||
