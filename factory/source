@@ -1,16 +1,17 @@
-昨天和前天去参加了 InfoQ 主办的 GMTC，收获颇丰。现在的各种交流活动真心多，大家周末也别在家窝着了，多参加参加活动吧。
-[译] Swift 范的 CGRect、CGSize 和 CGPoint (@saitjr)||http://swift.gg/2016/06/16/swift-cgrect-cgsize-cgpoint/||这三个是日常开发中非常常见的结构体，如何用 Swift 的方式使用它们？来学习下这篇文字。
-[译] SE-0005 更好的把 Objective-C APIs 转换成 Swift 版本 (@boxue)||http://swift.gg/2016/06/20/SE-0005-better-translation-of-objective-c-api-into-swift/||这是一篇投稿翻译。Swift 3.0 会对 OC 的 API 重新命名，根据苹果官方的描述，你也可以把你自己的 OC API 转换成 Swift 版本。
-[译] 初学者应该先学什么：TDD、Swift 还是函数式？ (@小锅)||http://swift.gg/2016/06/22/what-to-learn-first/||作者收到一个新人提问，借此机会讲了讲他推荐的新人学习路线。
-[译] 今年 WWDC 大会有哪些新技术？ (@Crystal Sun)||http://swift.gg/2016/06/24/ios-10-api-diff/||WWDC 结束一周了，大量的 session 视频都已经发布。全部看完是不现实的，如何取舍？可以参考这篇文章，只看你最感兴趣的内容。
-开发者所需要知道的 iOS 10 SDK 新特性 (@onevcat)||https://onevcat.com/2016/06/ios-10-sdk/||喵神新文章，详细介绍了 iOS 10 的新特性。
-How to Be Polite (@Paul Ford)||https://medium.com/message/how-to-be-polite-9bf1e69e888c||本周的英文文章，不过这次不是技术文章，而是一碗外国火鸡汤。每个人都想和其他人好好相处，但是这种能力并不是与生俱来的，有时候我们会在无意中做错事。如何做一个有礼貌的人？作者讲述了自己的故事，希望给你一些启发。||
+新书发布！半年前拿到了 C4iOS 的翻译授权，经过半年的翻译和校对，终于可以发布了！C4 是一个极具创造性的开发框架，可以使用简单的 API 实现各种交互和动画效果。C4iOS 是 C4 团队编写的一本开发教程，详细介绍了一个完整项目的开发过程，非常适合新手学习，<a target="_blank" style="font-size:14px;line-height:22px;font-weight:bold;text-decoration:none;color:#259;border:none;outline:none" href="http://c4ios.swift.gg">中文版链接</a>。
+[译] 《重构与模式》 Swift 版之创建方法 (@Crystal Sun)||http://swift.gg/2016/06/27/refactoring-to-creation-method/||《重构与模式》是一本 Java 的重构教材，作者计划将书中内容用 Swift 重写一遍。这是第一篇重写的文章，介绍如何用创建方法重构初始化过程。
+[译] 使用 Swift 在 iOS 10 中集成 Siri —— SiriKit 教程（Part 1） (@Crystal Sun)||http://swift.gg/2016/06/28/adding-siri-to-ios-10-apps-in-swift-tutorial/||iOS 10 的教程来啦！！让大家学到世界范围内的最新技术，这就是我们的目标。
+[译] 使用 Xcode 8 为 iMessage 创建表情包插件 (@小袋子)||http://swift.gg/2016/06/29/message-sticker-app/||新发布的 iMessage 增加了许多扩展功能，其中的一大亮点就是表情包。表情包插件的开发非常简单，如果你有兴趣可以来尝试一下。
+[译] Linux 下使用 Swift MQTT (@shanks)||http://swift.gg/2016/07/01/mqtt-with-swift-on-linux/||今天这篇是 Swift 在物联网方面的实践。MQTT 是硬件设备常用的通信协议，可以实现订阅模式。这篇文章有一定深度，推荐给对嵌入式感兴趣的同学。
+iOS 10 Music 架构解析 (@txx)||http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&mid=2650948426&idx=1&sn=39660132831ca76f45c73c2c50ed47ed&scene=23&srcid=07038W8sjXH45qtz4XDsr20P#rd||虾神的新文章。苹果用 Swift 重写了 iOS 10 的 Music，苹果到底是怎么使用 Swift 的？虾神从逆向角度分析新版 Music 使用的技术和架构。
+What’s New in Swift 3? (@RayWenderlich)||https://www.raywenderlich.com/135655/whats-new-swift-3||本周的英文文章，来自教程大户 RayWenderlich，介绍了 Swift 3 的新内容。||
 opensource
-fog-machine：多设备并行框架 (@ngageoint)||https://github.com/ngageoint/fog-machine||一个研究性项目，试图利用多台 iOS 设备实现并行功能，很有意思，哪怕你用不到也可以了解一下。
-Iconic：矢量图标库 (@dzenbot)||https://github.com/dzenbot/Iconic||作者把 web 开发中的 Icon Font 概念引入了 Swift，可以快速生成矢量图标。
-SwiftLinkPreview：生成 URL 预览 (@LeonardoCardoso)||https://github.com/LeonardoCardoso/SwiftLinkPreview||有时候我们不想展示全部页面，只想显示一个预览，那就可以使用这个库来实现。它会从 URL 生成一个字典内容，你可以根据自己的喜好显示不同内容，比如图片、标题、文本等等。
-Graphs：图表生成工具 (@recruit-mtl)||https://github.com/recruit-mtl/Graphs||假设你正在写 Keynote，需要插入一张图表，怎么办？现在你可以使用 Swift 了，直接在 playground 中生成图表，截图粘贴过去即可。
-DropDown：Material Design 下拉菜单 (@AssistoLab)||https://github.com/AssistoLab/DropDown||一个符合 Material Design 的下拉菜单，支持自定义，可以实现输入+选择这种组合控件。
-moa：图片下载库 (@evgenyneu)||https://github.com/evgenyneu/moa||兼容全平台，你只需要指定一个图片 URL，这个库会自动进行异步下载并显示图片。
-Dollar：全能工具库 (@ankurp)||https://github.com/ankurp/Dollar||类似 JS 的 Lo-Dash 和 Underscore.js，集成了许多常用的工具函数，比如检查元素是否在数组中、多次循环遍历数组等等。
-Kanna：XML/HTML 解析器 (@tid-kijyun)||https://github.com/tid-kijyun/Kanna||类似 Python 的 BeautifulSoup，可以解析 XML/HTML 字符串，然后对解析后的结果做一些操作，比如搜索、查找、修改等等。||
+FlightAnimator：功能完善的动画库 (@AntonTheDev)||https://github.com/AntonTheDev/FlightAnimator||基于 CoreAnimation 构建的动画库，使用 block 可以轻松创建动画。支持 43 种动画曲线，支持串联动画，极其强大。
+Presentr：自定义弹出界面 (@IcaliaLabs)||https://github.com/IcaliaLabs/Presentr||iOS 8 引入了专门的 Custom View Controller Presentation，支持自定义弹出界面，但是使用的时候并不那么直观，因此诞生了这个库，对基础 API 做了封装，可以更轻松地创建弹出界面。
+Daysquare：优雅的日历界面 (@unixzii)||https://github.com/unixzii/Daysquare||自带的 UIDatePicker 虽然方便，但是滚动选择用多了就会觉得无聊。这个项目创建了一个完整的日历界面，和 iOS 自带的日历应用很相似，是时候告别滚轮了。
+ISTimeline：轻松实现时间线 (@instant-solutions)||https://github.com/instant-solutions/ISTimeline||一个典型的时间线界面，每个时间点可以自定义标题、描述、颜色，还支持触摸触发回调。
+BackgroundVideoiOS：给界面加上视频背景 (@Guzlan)||https://github.com/Guzlan/BackgroundVideoiOS||高大上的应用往往会在背景上做文章，不过不管怎么换，大部分背景都是静态图片，有没有想过用视频做背景？视频的表现能力远超图片，用好了会给用户留下深刻印象。
+Willow：日志库 (@Nike-Inc)||https://github.com/Nike-Inc/Willow||项目本身没什么特别，但是，注意看项目作者，没错，Nike！Nike 近期开源了多个项目，相信之后还有更多公司会加入开源，拭目以待！
+Alembic：函数式 JSON 解析库 (@ra1028)||https://github.com/ra1028/Alembic||亮点是函数式，支持 JSON 解析、映射到对象、对象序列化为 JSON。JSON 库层出不穷，这个函数式还真有点意思。
+Formatting：函数式字符串格式化 (@stephencelis)||https://github.com/stephencelis/Formatting||又一个函数式库，可以自定义格式化函数，能够串联多个格式化函数，实现复杂的格式化逻辑。此外，这个库是类型安全的。
+GCDTimer：GCD 计时器 (@hemantasapkota)||https://github.com/hemantasapkota/GCDTimer||基于 GCD 实现的计时器，非常好用，可以实现各种定时任务。代码量很小，可以学习一下实现方式。||
