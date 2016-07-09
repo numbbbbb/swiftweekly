@@ -1,17 +1,17 @@
-新书发布！半年前拿到了 C4iOS 的翻译授权，经过半年的翻译和校对，终于可以发布了！C4 是一个极具创造性的开发框架，可以使用简单的 API 实现各种交互和动画效果。C4iOS 是 C4 团队编写的一本开发教程，详细介绍了一个完整项目的开发过程，非常适合新手学习，<a target="_blank" style="font-size:14px;line-height:22px;font-weight:bold;text-decoration:none;color:#259;border:none;outline:none" href="http://c4ios.swift.gg">中文版链接</a>。
-[译] 《重构与模式》 Swift 版之创建方法 (@Crystal Sun)||http://swift.gg/2016/06/27/refactoring-to-creation-method/||《重构与模式》是一本 Java 的重构教材，作者计划将书中内容用 Swift 重写一遍。这是第一篇重写的文章，介绍如何用创建方法重构初始化过程。
-[译] 使用 Swift 在 iOS 10 中集成 Siri —— SiriKit 教程（Part 1） (@Crystal Sun)||http://swift.gg/2016/06/28/adding-siri-to-ios-10-apps-in-swift-tutorial/||iOS 10 的教程来啦！！让大家学到世界范围内的最新技术，这就是我们的目标。
+这周最火的非 Pokemon Go 莫属。由于国区无法下载，加上锁区，下载了也抓不到小精灵，大家都只能看着海外党玩。不过在国内玩家的研究下，已经可以修改 GPS 定位，具体请看下面的文章。提醒大家，不要用修改 GPS 做坏事哦。
+[译] 混淆 API 密钥 (@pucca601)||http://swift.gg/2016/07/04/obscuring-api-keys/||API 用起来很方便，但是密钥的安全性是个大问题。本文提到了一种密钥的加密和解密方法，供大家参考。
+[译] 《重构与模式》Swift 版之参数对象 (@Channe)||http://swift.gg/2016/07/07/parameter-objects/||这次来重构参数对象。如果参数有多个，或者需要经常变动，可以构建一个参数对象，从而减少代码改动。文章浅显易懂，推荐阅读。
 [译] 使用 Xcode 8 为 iMessage 创建表情包插件 (@小袋子)||http://swift.gg/2016/06/29/message-sticker-app/||新发布的 iMessage 增加了许多扩展功能，其中的一大亮点就是表情包。表情包插件的开发非常简单，如果你有兴趣可以来尝试一下。
-[译] Linux 下使用 Swift MQTT (@shanks)||http://swift.gg/2016/07/01/mqtt-with-swift-on-linux/||今天这篇是 Swift 在物联网方面的实践。MQTT 是硬件设备常用的通信协议，可以实现订阅模式。这篇文章有一定深度，推荐给对嵌入式感兴趣的同学。
-iOS 10 Music 架构解析 (@txx)||http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&mid=2650948426&idx=1&sn=39660132831ca76f45c73c2c50ed47ed&scene=23&srcid=07038W8sjXH45qtz4XDsr20P#rd||虾神的新文章。苹果用 Swift 重写了 iOS 10 的 Music，苹果到底是怎么使用 Swift 的？虾神从逆向角度分析新版 Music 使用的技术和架构。
-What’s New in Swift 3? (@RayWenderlich)||https://www.raywenderlich.com/135655/whats-new-swift-3||本周的英文文章，来自教程大户 RayWenderlich，介绍了 Swift 3 的新内容。||
+在实践中应用 RxSwift (@DianQK)||http://swift.gg/2016/07/08/using-rxswift-in-practice/||今天是一篇原创文章，作者是翻译组的@靛青K 。他最近在写一系列 RxSwift 文章，大家可以帮忙提提建议：http://book.dianqk.org。
+Pokemon Go 锁区破解 (@txx)||http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&mid=2650948432&idx=1&sn=125742722bbbce53774199a587688088&scene=23&srcid=0709zU3q7iORL9rNWtADE4U0#rd||虾神的新文章，几行代码就可以破解锁区。当然这里的重点不在游戏，而是破解方法，推荐跟着步骤操作一遍，会对 iOS 应用有更深入的了解。
+Xcode 8: How To Create an Animated iMessage Sticker (@Natasha)||https://www.natashatherobot.com/xcode-8-create-an-animated-imessage-sticker/||本周的英文文章，介绍如何创建动态 iMessage 表情，是时候做一套来炫耀了。||
 opensource
-FlightAnimator：功能完善的动画库 (@AntonTheDev)||https://github.com/AntonTheDev/FlightAnimator||基于 CoreAnimation 构建的动画库，使用 block 可以轻松创建动画。支持 43 种动画曲线，支持串联动画，极其强大。
-Presentr：自定义弹出界面 (@IcaliaLabs)||https://github.com/IcaliaLabs/Presentr||iOS 8 引入了专门的 Custom View Controller Presentation，支持自定义弹出界面，但是使用的时候并不那么直观，因此诞生了这个库，对基础 API 做了封装，可以更轻松地创建弹出界面。
-Daysquare：优雅的日历界面 (@unixzii)||https://github.com/unixzii/Daysquare||自带的 UIDatePicker 虽然方便，但是滚动选择用多了就会觉得无聊。这个项目创建了一个完整的日历界面，和 iOS 自带的日历应用很相似，是时候告别滚轮了。
-ISTimeline：轻松实现时间线 (@instant-solutions)||https://github.com/instant-solutions/ISTimeline||一个典型的时间线界面，每个时间点可以自定义标题、描述、颜色，还支持触摸触发回调。
-BackgroundVideoiOS：给界面加上视频背景 (@Guzlan)||https://github.com/Guzlan/BackgroundVideoiOS||高大上的应用往往会在背景上做文章，不过不管怎么换，大部分背景都是静态图片，有没有想过用视频做背景？视频的表现能力远超图片，用好了会给用户留下深刻印象。
-Willow：日志库 (@Nike-Inc)||https://github.com/Nike-Inc/Willow||项目本身没什么特别，但是，注意看项目作者，没错，Nike！Nike 近期开源了多个项目，相信之后还有更多公司会加入开源，拭目以待！
-Alembic：函数式 JSON 解析库 (@ra1028)||https://github.com/ra1028/Alembic||亮点是函数式，支持 JSON 解析、映射到对象、对象序列化为 JSON。JSON 库层出不穷，这个函数式还真有点意思。
-Formatting：函数式字符串格式化 (@stephencelis)||https://github.com/stephencelis/Formatting||又一个函数式库，可以自定义格式化函数，能够串联多个格式化函数，实现复杂的格式化逻辑。此外，这个库是类型安全的。
-GCDTimer：GCD 计时器 (@hemantasapkota)||https://github.com/hemantasapkota/GCDTimer||基于 GCD 实现的计时器，非常好用，可以实现各种定时任务。代码量很小，可以学习一下实现方式。||
+BarcodeScanner：条码扫描库 (@hyperoslo)||https://github.com/hyperoslo/BarcodeScanner||带状态控制的条码扫描库，支持处理相机权限、自定义颜色和提示信息，不依赖其他第三方库。
+Potatso：Shadowsocks iOS 客户端 (@icodesign)||https://github.com/shadowsocks/Potatso||基于 iOS 9 的 NetworkExtension 框架实现 Shadowsocks 代理，由国人开发，虽然还有很多问题不过确实值得期待。
+SideMenuController：侧边栏控制器 (@teodorpatras)||https://github.com/teodorpatras/SideMenuController||支持自定义位置、配置动画效果和自定义状态栏行为。
+KYShutterButton：模拟 iOS 相机按钮 (@ykyouhei)||https://github.com/ykyouhei/KYShutterButton||非常有趣的一个项目，模拟了 iOS 相机按钮，包括慢动作和延时效果，可以自定义颜色。
+SwiftLuhn：验证信用卡号合法性 (@MaxKramer)||https://github.com/MaxKramer/SwiftLuhn||信用卡号可以用 Luhn 算法验证，除了验证卡号合法性，还可以判断卡片类型，能够识别包括 Visa 在内的六种卡片。
+UPCarouselFlowLayout：轻松实现走马灯效果 (@ink-spot)||https://github.com/ink-spot/UPCarouselFlowLayout||走马灯效果和图片轮播类似，区别是当前显示的内容会被放大，手指滑动就可以左右切换内容，用好了确实比较炫酷。
+TinyPNG4Mac：Mac PNG 压缩工具 (@kyleduo)||https://github.com/kyleduo/TinyPNG4Mac||TinyPNG 是一个很出名的 PNG 压缩网站，作者给它开发了一个 Mac 客户端，直接拖拽就可以压缩 PNG 图片。
+XEasyMotion：用键盘控制鼠标 (@h2ero)||https://github.com/h2ero/XEasyMotion||非常有意思的一个项目，可以用键盘实现区域缩放、移动、点击、右击等等鼠标操作，配合脚本可以做一些有趣的事。
+reminders-cli：用命令行操作提醒事项 (@keith)||https://github.com/keith/reminders-cli||用命令行操作 Mac 上的提醒事项，可以查看、添加、完成项目，这里的重点是如何用 Swift 编写一个命令行工具。||
